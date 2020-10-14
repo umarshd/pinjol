@@ -245,67 +245,12 @@ footer .copyright {
   header .jumbotron .display-4 {
     font-size: 25px;
   }
-  main .container .form-title {
+  main .container .title-persyaratan {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  main .container p {
     font-size: 16px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  main .container .form-title span {
-    font-size: 14px;
-  }
-  main .container .form-title span img {
-    height: 16px;
-  }
-  main .container .form-description {
-    font-size: 14px;
-  }
-  main .container form {
-    margin: 87px 0px;
-  }
-  main .container .form-group label {
-    -webkit-box-flex: 20%;
-        -ms-flex: 20%;
-            flex: 20%;
-    font-size: 14px;
-  }
-  main .container .form-group input {
-    -webkit-box-flex: 80%;
-        -ms-flex: 80%;
-            flex: 80%;
-    font-size: 14px;
-  }
-  main .container .form-group textarea {
-    -webkit-box-flex: 80%;
-        -ms-flex: 80%;
-            flex: 80%;
-  }
-  main .container .form-group select {
-    -webkit-box-flex: 80%;
-        -ms-flex: 80%;
-            flex: 80%;
-  }
-  main .container .form-check {
-    margin-left: 0px;
-    margin-right: 100px;
-    position: relative;
-    height: 5vh;
-  }
-  main .container .form-check label {
-    position: absolute;
-    left: -70px;
-  }
-  main .container .form-check input {
-    position: absolute;
-    left: -70px;
-  }
-  main .container button {
-    background: #F5B51F;
-    border: none;
-  }
-  main .container button:hover {
-    background: #cc971d;
   }
   footer .logo {
     font-size: 20px;
@@ -360,68 +305,6 @@ footer .copyright {
   header .jumbotron .display-4 {
     font-size: 25px;
   }
-  main .container .form-title {
-    font-size: 16px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  main .container .form-title span {
-    font-size: 14px;
-  }
-  main .container .form-title span img {
-    height: 16px;
-  }
-  main .container .form-description {
-    font-size: 14px;
-  }
-  main .container form {
-    margin: 87px 0px;
-  }
-  main .container .form-group label {
-    -webkit-box-flex: 20%;
-        -ms-flex: 20%;
-            flex: 20%;
-    font-size: 14px;
-  }
-  main .container .form-group input {
-    -webkit-box-flex: 80%;
-        -ms-flex: 80%;
-            flex: 80%;
-    font-size: 14px;
-  }
-  main .container .form-group textarea {
-    -webkit-box-flex: 80%;
-        -ms-flex: 80%;
-            flex: 80%;
-  }
-  main .container .form-group select {
-    -webkit-box-flex: 80%;
-        -ms-flex: 80%;
-            flex: 80%;
-  }
-  main .container .form-check {
-    margin-left: 0px;
-    margin-right: 100px;
-    position: relative;
-    height: 5vh;
-  }
-  main .container .form-check label {
-    position: absolute;
-    left: -60px;
-  }
-  main .container .form-check input {
-    position: absolute;
-    left: -60px;
-  }
-  main .container button {
-    background: #F5B51F;
-    border: none;
-  }
-  main .container button:hover {
-    background: #cc971d;
-  }
   footer .logo {
     font-size: 20px;
     margin-top: 20px;
@@ -474,68 +357,6 @@ footer .copyright {
   }
   header .jumbotron .display-4 {
     font-size: 25px;
-  }
-  main .container .form-title {
-    font-size: 16px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  main .container .form-title span {
-    font-size: 14px;
-  }
-  main .container .form-title span img {
-    height: 16px;
-  }
-  main .container .form-description {
-    font-size: 14px;
-  }
-  main .container form {
-    margin: 87px 0px;
-  }
-  main .container .form-group label {
-    -webkit-box-flex: 20%;
-        -ms-flex: 20%;
-            flex: 20%;
-    font-size: 14px;
-  }
-  main .container .form-group input {
-    -webkit-box-flex: 80%;
-        -ms-flex: 80%;
-            flex: 80%;
-    font-size: 14px;
-  }
-  main .container .form-group textarea {
-    -webkit-box-flex: 80%;
-        -ms-flex: 80%;
-            flex: 80%;
-  }
-  main .container .form-group select {
-    -webkit-box-flex: 80%;
-        -ms-flex: 80%;
-            flex: 80%;
-  }
-  main .container .form-check {
-    margin-left: 0px;
-    margin-right: 100px;
-    position: relative;
-    height: 5vh;
-  }
-  main .container .form-check label {
-    position: absolute;
-    left: -50px;
-  }
-  main .container .form-check input {
-    position: absolute;
-    left: -50px;
-  }
-  main .container button {
-    background: #F5B51F;
-    border: none;
-  }
-  main .container button:hover {
-    background: #cc971d;
   }
   footer .logo {
     font-size: 20px;
@@ -590,67 +411,8 @@ footer .copyright {
   header .jumbotron .display-4 {
     font-size: 25px;
   }
-  main .container .form-title {
-    font-size: 16px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  main .container .form-title span {
-    font-size: 14px;
-  }
-  main .container .form-title span img {
-    height: 16px;
-  }
-  main .container .form-description {
-    font-size: 14px;
-  }
-  main .container form {
-    margin: 87px 0px;
-  }
-  main .container .form-group label {
-    -webkit-box-flex: 20%;
-        -ms-flex: 20%;
-            flex: 20%;
-    font-size: 14px;
-  }
-  main .container .form-group input {
-    -webkit-box-flex: 80%;
-        -ms-flex: 80%;
-            flex: 80%;
-    font-size: 14px;
-  }
-  main .container .form-group textarea {
-    -webkit-box-flex: 80%;
-        -ms-flex: 80%;
-            flex: 80%;
-  }
-  main .container .form-group select {
-    -webkit-box-flex: 80%;
-        -ms-flex: 80%;
-            flex: 80%;
-  }
-  main .container .form-check {
-    margin-left: 0px;
-    margin-right: 100px;
-    position: relative;
-    height: 5vh;
-  }
-  main .container .form-check label {
-    position: absolute;
-    left: -10px;
-  }
-  main .container .form-check input {
-    position: absolute;
-    left: -10px;
-  }
-  main .container button {
-    background: #F5B51F;
-    border: none;
-  }
-  main .container button:hover {
-    background: #cc971d;
+  main .container .title-persyaratan {
+    font-size: 24px;
   }
   footer .logo {
     font-size: 20px;
@@ -706,92 +468,29 @@ footer .copyright {
   header .jumbotron .display-4 {
     font-size: 25px;
   }
-  main .container .form-title {
-    font-size: 24px;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
-  main .container .form-title span {
-    font-size: 16px;
-    margin-top: 0px;
-  }
-  main .container .form-title span img {
-    height: 24px;
-  }
-  main .container .form-description {
-    font-size: 16px;
-  }
-  main .container form {
-    margin: 87px 0px;
-  }
-  main .container .form-group label {
-    -webkit-box-flex: 20%;
-        -ms-flex: 20%;
-            flex: 20%;
-    font-size: 18px;
-  }
-  main .container .form-group input {
-    -webkit-box-flex: 80%;
-        -ms-flex: 80%;
-            flex: 80%;
-    font-size: 18px;
-  }
-  main .container .form-group textarea {
-    -webkit-box-flex: 80%;
-        -ms-flex: 80%;
-            flex: 80%;
-  }
-  main .container .form-group select {
-    -webkit-box-flex: 80%;
-        -ms-flex: 80%;
-            flex: 80%;
-  }
-  main .container .form-check {
-    margin-left: 0px;
-    margin-right: 100px;
-    position: relative;
-    height: 5vh;
-  }
-  main .container .form-check label {
-    position: absolute;
-    left: 20px;
-  }
-  main .container .form-check input {
-    position: absolute;
-    left: 20px;
-  }
-  main .container button {
-    background: #F5B51F;
-    border: none;
-  }
-  main .container button:hover {
-    background: #cc971d;
-  }
   footer .logo {
-    font-size: 20px;
+    font-size: 26px;
     margin-top: 20px;
   }
   footer .corporate {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
   }
   footer .alamatCorporate {
     margin-top: 15px;
-    font-size: 12px;
+    font-size: 14px;
   }
   footer .contactCorporate {
-    font-size: 12px;
+    font-size: 14px;
   }
   footer .emailCorporate {
-    font-size: 12px;
+    font-size: 14px;
   }
   footer .copyright {
     text-align: center;
     margin: 30px 0px;
     position: relative;
-    font-size: 12px;
+    font-size: 14px;
   }
 }
-/*# sourceMappingURL=ajukan-sekarang.css.map */
+/*# sourceMappingURL=persyaratan.css.map */

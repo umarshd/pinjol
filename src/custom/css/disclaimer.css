@@ -185,7 +185,66 @@ footer .copyright {
   bottom: 0;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 0px) {
+  header nav {
+    font-size: 14px;
+  }
+  header nav .navbar-brand {
+    font-size: 25px;
+  }
+  header nav .waNav-desktop-display {
+    display: none;
+  }
+  header nav .waNav-mobile-display {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+  }
+  header nav .waNav-mobile-display a {
+    font-size: 10px;
+  }
+  header .jumbotron {
+    margin-top: 60px;
+    height: 200px;
+  }
+  header .jumbotron .display-4 {
+    font-size: 25px;
+  }
+  main .title-disclaimer {
+    font-size: 20px;
+  }
+  main p {
+    font-size: 12px;
+  }
+  footer .logo {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  footer .corporate {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  footer .alamatCorporate {
+    margin-top: 15px;
+    font-size: 12px;
+  }
+  footer .contactCorporate {
+    font-size: 12px;
+  }
+  footer .emailCorporate {
+    font-size: 12px;
+  }
+  footer .copyright {
+    text-align: center;
+    margin: 30px 0px;
+    position: relative;
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 576px) {
   header nav {
     font-size: 14px;
   }
@@ -243,11 +302,11 @@ footer .copyright {
     text-align: center;
     margin: 30px 0px;
     position: relative;
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 767.98px) {
   header nav {
     font-size: 14px;
   }
@@ -305,70 +364,11 @@ footer .copyright {
     text-align: center;
     margin: 30px 0px;
     position: relative;
-    font-size: 14px  header;
-  }
-  footer nav {
-    font-size: 14px;
-  }
-  footer nav .navbar-brand {
-    font-size: 25px;
-  }
-  footer nav .waNav-desktop-display {
-    display: none;
-  }
-  footer nav .waNav-desktop-display a {
     font-size: 12px;
-  }
-  footer nav .waNav-mobile-display {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-left: auto;
-    margin-right: 20px;
-  }
-  footer nav .waNav-mobile-display a {
-    font-size: 12px;
-  }
-  footer .jumbotron {
-    margin-top: 60px;
-    height: 200px;
-  }
-  footer .jumbotron .display-4 {
-    font-size: 25px;
-  }
-  main .title-disclaimer {
-    font-size: 20px;
-  }
-  main p {
-    font-size: 12px;
-  }
-  footer .logo {
-    font-size: 20px;
-    margin-top: 20px;
-  }
-  footer .corporate {
-    font-size: 12px;
-    font-weight: 500;
-  }
-  footer .alamatCorporate {
-    margin-top: 15px;
-    font-size: 12px;
-  }
-  footer .contactCorporate {
-    font-size: 12px;
-  }
-  footer .emailCorporate {
-    font-size: 12px;
-  }
-  footer .copyright {
-    text-align: center;
-    margin: 30px 0px;
-    position: relative;
-    font-size: 14px;
   }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 991.98px) {
   header nav {
     font-size: 14px;
   }
@@ -376,15 +376,15 @@ footer .copyright {
     font-size: 25px;
   }
   header nav .waNav-desktop-display {
-    display: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   header nav .waNav-desktop-display a {
     font-size: 12px;
   }
   header nav .waNav-mobile-display {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: none;
     margin-left: auto;
     margin-right: 20px;
   }

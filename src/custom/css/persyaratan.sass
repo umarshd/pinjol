@@ -30,7 +30,6 @@ header
           color: $color-anchor-hover !important
 
     .waNav-desktop-display
-      display: flex
       a
         padding: 5px 10px
         background: #13990A
@@ -46,7 +45,6 @@ header
         text-decoration: none
 
     .waNav-mobile-display
-      display: none
       a
         padding: 5px 10px
         background: #13990A
@@ -76,43 +74,65 @@ header
       font-weight: 600
 
 main
-  margin-bottom: 100px
+  .container
+    .form-title
+      justify-content: center
+      margin-top: 98px
+      font-size: 24px
+      font-weight: bold
+      display: flex
+      align-items: center
+      letter-spacing: 2px
+      margin-bottom: 10px
 
-  .title-disclaimer
-    font-weight: 600
+      span
+        padding: 5px 10px
+        background: #13990A
+        border-radius: 10px
+        color: #ffffff
+        font-size: 18px
+        font-weight: 500
+        margin-left: 5px
+        margin-top: 10px
 
-  p
-    font-size: 14px
+        img
+          height: 24px
 
-  .card
-    .card-body
-      p
-        font-size: 14px
-      .card-title
-        font-size: 16px
-        font-weight: 600
+    form
+      margin: 87px 0px
 
-  .nav
-    .nav-item
-      font-weight: 600
-      .active
-        color: $color-anchor-hover !important
+      .form-group
+        display: flex
+        justify-content: center
+        label
+          margin: auto 0px
+          margin-right: 20px
+          flex: 20%
 
-      .nav-link
-        color: black
+        input
+          flex: 80%
 
-      .nav-link:hover
-        color: $color-anchor-hover
+        textarea
+          flex: 80%
+        select
+          flex: 80%
 
-  .card-blog
-    .card
-      height: 250px
-      .card-body
-        p
-          font-size: 10px
+      .form-check
+        display: flex
+        margin-left: 200px
+        position: relative
 
-        .card-title
-          font-size: 12px
+        label
+          margin-left: 10px
+
+        input
+
+      button
+        background: $color-anchor-hover
+        border: none
+
+      button:hover
+        background: #cc971d
 
 footer
   background: $color-primary
@@ -145,7 +165,162 @@ footer
     position: absolute
     bottom: 0
 
-@media screen and ( min-width: 0px  )
+@media screen and ( min-width: 0px )
+  header
+    nav
+      font-size: 14px
+
+      .navbar-brand
+        font-size: 25px
+      .waNav-desktop-display
+        display: none
+
+      .waNav-mobile-display
+        display: flex
+        margin-left: auto
+        margin-right: 20px
+        a
+          font-size: 10px
+
+    .jumbotron
+      margin-top: 60px
+      height: 200px
+
+      .display-4
+        font-size: 25px
+  main
+    .container
+      .title-persyaratan
+        font-size: 20px
+        font-weight: 600
+
+      p
+        font-size: 16px
+
+  footer
+    .logo
+      font-size: 20px
+      margin-top: 20px
+
+    .corporate
+      font-size: 12px
+      font-weight: 500
+
+    .alamatCorporate
+      margin-top: 15px
+      font-size: 12px
+
+    .contactCorporate
+      font-size: 12px
+
+    .emailCorporate
+      font-size: 12px
+
+    .copyright
+      text-align: center
+      margin: 30px 0px
+      position: relative
+      font-size: 12px
+
+@media screen and ( min-width: 576px  )
+  header
+    nav
+      font-size: 14px
+
+      .navbar-brand
+        font-size: 25px
+      .waNav-desktop-display
+        display: none
+
+      .waNav-mobile-display
+        display: flex
+        margin-left: auto
+        margin-right: 20px
+        a
+          font-size: 10px
+
+    .jumbotron
+      margin-top: 60px
+      height: 200px
+
+      .display-4
+        font-size: 25px
+
+  footer
+    .logo
+      font-size: 20px
+      margin-top: 20px
+
+    .corporate
+      font-size: 12px
+      font-weight: 500
+
+    .alamatCorporate
+      margin-top: 15px
+      font-size: 12px
+
+    .contactCorporate
+      font-size: 12px
+
+    .emailCorporate
+      font-size: 12px
+
+    .copyright
+      text-align: center
+      margin: 30px 0px
+      position: relative
+      font-size: 12px
+
+@media screen and ( min-width: 768px )
+  header
+    nav
+      font-size: 14px
+
+      .navbar-brand
+        font-size: 25px
+      .waNav-desktop-display
+        display: none
+
+      .waNav-mobile-display
+        display: flex
+        margin-left: auto
+        margin-right: 20px
+        a
+          font-size: 10px
+
+    .jumbotron
+      margin-top: 60px
+      height: 200px
+
+      .display-4
+        font-size: 25px
+
+  footer
+    .logo
+      font-size: 20px
+      margin-top: 20px
+
+    .corporate
+      font-size: 12px
+      font-weight: 500
+
+    .alamatCorporate
+      margin-top: 15px
+      font-size: 12px
+
+    .contactCorporate
+      font-size: 12px
+
+    .emailCorporate
+      font-size: 12px
+
+    .copyright
+      text-align: center
+      margin: 30px 0px
+      position: relative
+      font-size: 12px
+
+@media screen and ( min-width: 992px )
   header
     nav
       font-size: 14px
@@ -170,69 +345,9 @@ footer
         font-size: 25px
 
   main
-    .title-disclaimer
-      font-size: 20px
-
-    p
-      font-size: 12px
-
-  footer
-    .logo
-      font-size: 20px
-      margin-top: 20px
-
-    .corporate
-      font-size: 12px
-      font-weight: 500
-
-    .alamatCorporate
-      margin-top: 15px
-      font-size: 12px
-
-    .contactCorporate
-      font-size: 12px
-
-    .emailCorporate
-      font-size: 12px
-
-    .copyright
-      text-align: center
-      margin: 30px 0px
-      position: relative
-      font-size: 12px
-@media screen and ( min-width: 576px  )
-  header
-    nav
-      font-size: 14px
-
-      .navbar-brand
-        font-size: 25px
-      .waNav-desktop-display
-        display: none
-
-        a
-          font-size: 12px
-
-      .waNav-mobile-display
-        display: flex
-        margin-left: auto
-        margin-right: 20px
-        a
-          font-size: 12px
-
-    .jumbotron
-      margin-top: 60px
-      height: 200px
-
-      .display-4
-        font-size: 25px
-
-  main
-    .title-disclaimer
-      font-size: 20px
-
-    p
-      font-size: 12px
+    .container
+      .title-persyaratan
+        font-size: 24px
 
   footer
     .logo
@@ -259,25 +374,21 @@ footer
       position: relative
       font-size: 12px
 
-@media screen and ( min-width: 767.98px)
+@media screen and ( min-width: 1200px )
   header
     nav
-      font-size: 14px
+      font-size: 18px
 
       .navbar-brand
-        font-size: 25px
+        font-size: 30px
       .waNav-desktop-display
-        display: none
-
+        display: flex
+        align-items: center
         a
-          font-size: 12px
+          font-size: 16px
 
       .waNav-mobile-display
-        display: flex
-        margin-left: auto
-        margin-right: 20px
-        a
-          font-size: 12px
+        display: none
 
     .jumbotron
       margin-top: 60px
@@ -286,90 +397,27 @@ footer
       .display-4
         font-size: 25px
 
-  main
-    .title-disclaimer
-      font-size: 20px
-
-    p
-      font-size: 12px
-
   footer
     .logo
-      font-size: 20px
+      font-size: 26px
       margin-top: 20px
 
     .corporate
-      font-size: 12px
+      font-size: 14px
       font-weight: 500
 
     .alamatCorporate
       margin-top: 15px
-      font-size: 12px
+      font-size: 14px
 
     .contactCorporate
-      font-size: 12px
+      font-size: 14px
 
     .emailCorporate
-      font-size: 12px
+      font-size: 14px
 
     .copyright
       text-align: center
       margin: 30px 0px
       position: relative
-      font-size: 12px
-@media screen and ( min-width: 991.98px )
-  header
-    nav
       font-size: 14px
-
-      .navbar-brand
-        font-size: 25px
-      .waNav-desktop-display
-        display: flex
-
-        a
-          font-size: 12px
-
-      .waNav-mobile-display
-        display: none
-        margin-left: auto
-        margin-right: 20px
-        a
-          font-size: 12px
-
-    .jumbotron
-      margin-top: 60px
-      height: 200px
-
-      .display-4
-        font-size: 25px
-
-  main
-    .title-disclaimer
-      font-size: 24px
-
-    p
-      font-size: 14px
-
-  footer
-    .logo
-      font-size: 20px
-      margin-top: 20px
-
-    .corporate
-      font-size: 12px
-      font-weight: 500
-
-    .alamatCorporate
-      margin-top: 15px
-      font-size: 12px
-
-    .contactCorporate
-      font-size: 12px
-
-    .emailCorporate
-      font-size: 12px
-
-    .copyright
-
-      font-size: 12px

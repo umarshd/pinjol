@@ -66,6 +66,10 @@ header .jumbotron .display-4 {
   font-weight: 600;
 }
 
+main {
+  margin-bottom: 100px;
+}
+
 main .title-persyaratan {
   font-weight: 600;
   margin-bottom: 100px;
@@ -106,6 +110,30 @@ main .card-leasing .corporate-partner-leasing p {
 main .card-leasing .alamat-corporate-partner-leasing p {
   margin: 0px 0px;
   font-size: 14px;
+}
+
+main .col-md-4:nth-child(1) {
+  margin-top: 30px;
+}
+
+main .col-md-4:nth-child(2) {
+  margin-top: 30px;
+}
+
+main .col-md-4:nth-child(3) {
+  margin-top: 30px;
+}
+
+main .col-md-4:nth-child(4) {
+  margin-top: 30px;
+}
+
+main .col-md-4:nth-child(5) {
+  margin-top: 30px;
+}
+
+main .col-md-4:nth-child(6) {
+  margin-top: 30px;
 }
 
 footer {
