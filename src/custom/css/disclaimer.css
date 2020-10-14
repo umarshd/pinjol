@@ -1,0 +1,429 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header nav {
+  -webkit-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+header nav .navbar-brand {
+  color: #012756 !important;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+header nav .collapse .navbar-nav a {
+  color: #03071E !important;
+  font-weight: 500;
+}
+
+header nav .collapse .navbar-nav a:hover {
+  color: #F5B51F !important;
+}
+
+header nav .collapse .navbar-nav .active {
+  color: #F5B51F !important;
+}
+
+header nav .waNav-desktop-display {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav .waNav-desktop-display a {
+  padding: 5px 10px;
+  background: #13990A;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+header nav .waNav-desktop-display a img {
+  height: 24px;
+}
+
+header nav .waNav-desktop-display a:hover {
+  text-decoration: none;
+}
+
+header nav .waNav-mobile-display {
+  display: none;
+}
+
+header nav .waNav-mobile-display a {
+  padding: 5px 10px;
+  background: #13990A;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+header nav .waNav-mobile-display a img {
+  height: 24px;
+}
+
+header nav .waNav-mobile-display a:hover {
+  text-decoration: none;
+}
+
+header .jumbotron {
+  margin-top: 70px;
+  height: 300px;
+  background: #012756;
+  color: #ffffff;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .jumbotron .display-4 {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+main {
+  margin-bottom: 100px;
+}
+
+main .title-disclaimer {
+  font-weight: 600;
+}
+
+main p {
+  font-size: 14px;
+}
+
+main .card .card-body p {
+  font-size: 14px;
+}
+
+main .card .card-body .card-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+main .nav .nav-item {
+  font-weight: 600;
+}
+
+main .nav .nav-item .active {
+  color: #F5B51F !important;
+}
+
+main .nav .nav-item .nav-link {
+  color: black;
+}
+
+main .nav .nav-item .nav-link:hover {
+  color: #F5B51F;
+}
+
+main .card-blog .card {
+  height: 250px;
+}
+
+main .card-blog .card .card-body p {
+  font-size: 10px;
+}
+
+main .card-blog .card .card-body .card-title {
+  font-size: 12px;
+}
+
+footer {
+  background: #012756;
+  color: #ffffff;
+  min-height: 230px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .logo {
+  font-size: 26px;
+  color: #F5B51F;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+footer .corporate {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+footer .alamatCorporate {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+footer .contactCorporate {
+  font-size: 14px;
+}
+
+footer .emailCorporate {
+  font-size: 14px;
+}
+
+footer .copyright {
+  position: absolute;
+  bottom: 0;
+}
+
+@media screen and (max-width: 576px) {
+  header nav {
+    font-size: 14px;
+  }
+  header nav .navbar-brand {
+    font-size: 25px;
+  }
+  header nav .waNav-desktop-display {
+    display: none;
+  }
+  header nav .waNav-desktop-display a {
+    font-size: 12px;
+  }
+  header nav .waNav-mobile-display {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+  }
+  header nav .waNav-mobile-display a {
+    font-size: 12px;
+  }
+  header .jumbotron {
+    margin-top: 60px;
+    height: 200px;
+  }
+  header .jumbotron .display-4 {
+    font-size: 25px;
+  }
+  main .title-disclaimer {
+    font-size: 20px;
+  }
+  main p {
+    font-size: 12px;
+  }
+  footer .logo {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  footer .corporate {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  footer .alamatCorporate {
+    margin-top: 15px;
+    font-size: 12px;
+  }
+  footer .contactCorporate {
+    font-size: 12px;
+  }
+  footer .emailCorporate {
+    font-size: 12px;
+  }
+  footer .copyright {
+    text-align: center;
+    margin: 30px 0px;
+    position: relative;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header nav {
+    font-size: 14px;
+  }
+  header nav .navbar-brand {
+    font-size: 25px;
+  }
+  header nav .waNav-desktop-display {
+    display: none;
+  }
+  header nav .waNav-desktop-display a {
+    font-size: 12px;
+  }
+  header nav .waNav-mobile-display {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+  }
+  header nav .waNav-mobile-display a {
+    font-size: 12px;
+  }
+  header .jumbotron {
+    margin-top: 60px;
+    height: 200px;
+  }
+  header .jumbotron .display-4 {
+    font-size: 25px;
+  }
+  main .title-disclaimer {
+    font-size: 20px;
+  }
+  main p {
+    font-size: 12px;
+  }
+  footer .logo {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  footer .corporate {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  footer .alamatCorporate {
+    margin-top: 15px;
+    font-size: 12px;
+  }
+  footer .contactCorporate {
+    font-size: 12px;
+  }
+  footer .emailCorporate {
+    font-size: 12px;
+  }
+  footer .copyright {
+    text-align: center;
+    margin: 30px 0px;
+    position: relative;
+    font-size: 14px  header;
+  }
+  footer nav {
+    font-size: 14px;
+  }
+  footer nav .navbar-brand {
+    font-size: 25px;
+  }
+  footer nav .waNav-desktop-display {
+    display: none;
+  }
+  footer nav .waNav-desktop-display a {
+    font-size: 12px;
+  }
+  footer nav .waNav-mobile-display {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+  }
+  footer nav .waNav-mobile-display a {
+    font-size: 12px;
+  }
+  footer .jumbotron {
+    margin-top: 60px;
+    height: 200px;
+  }
+  footer .jumbotron .display-4 {
+    font-size: 25px;
+  }
+  main .title-disclaimer {
+    font-size: 20px;
+  }
+  main p {
+    font-size: 12px;
+  }
+  footer .logo {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  footer .corporate {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  footer .alamatCorporate {
+    margin-top: 15px;
+    font-size: 12px;
+  }
+  footer .contactCorporate {
+    font-size: 12px;
+  }
+  footer .emailCorporate {
+    font-size: 12px;
+  }
+  footer .copyright {
+    text-align: center;
+    margin: 30px 0px;
+    position: relative;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  header nav {
+    font-size: 14px;
+  }
+  header nav .navbar-brand {
+    font-size: 25px;
+  }
+  header nav .waNav-desktop-display {
+    display: none;
+  }
+  header nav .waNav-desktop-display a {
+    font-size: 12px;
+  }
+  header nav .waNav-mobile-display {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+  }
+  header nav .waNav-mobile-display a {
+    font-size: 12px;
+  }
+  header .jumbotron {
+    margin-top: 60px;
+    height: 200px;
+  }
+  header .jumbotron .display-4 {
+    font-size: 25px;
+  }
+  main .title-disclaimer {
+    font-size: 24px;
+  }
+  main p {
+    font-size: 14px;
+  }
+  footer .logo {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  footer .corporate {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  footer .alamatCorporate {
+    margin-top: 15px;
+    font-size: 12px;
+  }
+  footer .contactCorporate {
+    font-size: 12px;
+  }
+  footer .emailCorporate {
+    font-size: 12px;
+  }
+  footer .copyright {
+    font-size: 12px;
+  }
+}
+/*# sourceMappingURL=disclaimer.css.map */

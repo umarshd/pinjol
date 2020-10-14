@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header nav {
+  -webkit-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+header nav .navbar-brand {
+  color: #012756 !important;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+header nav .collapse .navbar-nav a {
+  color: #03071E !important;
+  font-weight: 500;
+}
+
+header nav .collapse .navbar-nav a:hover {
+  color: #F5B51F !important;
+}
+
+header nav .collapse .navbar-nav .active {
+  color: #F5B51F !important;
+}
+
+header nav .waNav a {
+  padding: 5px 10px;
+  background: #13990A;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+header nav .waNav a img {
+  height: 24px;
+}
+
+header nav .waNav a:hover {
+  text-decoration: none;
+}
+
+header .jumbotron {
+  margin-top: 70px;
+  height: 300px;
+  background: #012756;
+  color: #ffffff;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .jumbotron .display-4 {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+main .title-persyaratan {
+  font-weight: 600;
+  margin-bottom: 100px;
+}
+
+main .card-leasing {
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+          box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  height: 400px;
+}
+
+main .card-leasing .image-partner-leasing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 30px;
+}
+
+main .card-leasing .image-partner-leasing img {
+  height: 64px;
+}
+
+main .card-leasing .corporate-partner-leasing h5 {
+  color: #012756;
+  font-weight: 600;
+  margin-bottom: 0px;
+  font-size: 16px;
+}
+
+main .card-leasing .corporate-partner-leasing p {
+  font-size: 14px;
+}
+
+main .card-leasing .alamat-corporate-partner-leasing p {
+  margin: 0px 0px;
+  font-size: 14px;
+}
+
+footer {
+  background: #012756;
+  color: #ffffff;
+  min-height: 230px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .logo {
+  font-size: 26px;
+  color: #F5B51F;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+footer .corporate {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+footer .alamatCorporate {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+footer .contactCorporate {
+  font-size: 14px;
+}
+
+footer .emailCorporate {
+  font-size: 14px;
+}
+
+footer .copyright {
+  position: absolute;
+  bottom: 0;
+}
+/*# sourceMappingURL=leasing.css.map */

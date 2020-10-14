@@ -6,42 +6,84 @@
 
     <link rel="stylesheet" href="./src/css/bootstrap.min.css" />
 
+    <link rel="stylesheet" href="./src/custom/css/Home.css" />
+
     <title>Halogadai</title>
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">HALOGADAI</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Home <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#">HALOGADAI</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="body-slider">
+          <!-- image slider start -->
+          <div class="slider">
+            <div class="slides">
+              <!-- radio buttons start -->
+              <input type="radio" name="radio-btn" id="radio1" />
+              <input type="radio" name="radio-btn" id="radio2" />
+              <input type="radio" name="radio-btn" id="radio3" />
+              <!-- radio buttons end -->
+              <!-- slide image start -->
+              <div class="slide first">
+                <img src="./src/image/1.jpg" alt="" />
+              </div>
+              <div class="slide">
+                <img src="./src/image/header.png" alt="" />
+              </div>
+              <div class="slide">
+                <img src="./src/image/1.jpg" alt="" />
+              </div>
+              <!-- slide image end -->
+              <!-- automatic navigation start -->
+              <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+              </div>
+              <!-- automatic navigation end -->
+            </div>
+            <!-- manual navigation start -->
+            <div class="navigation-manual">
+              <label for="radio1" class="manual-btn"></label>
+              <label for="radio2" class="manual-btn"></label>
+              <label for="radio3" class="manual-btn"></label>
+            </div>
+            <!-- manual navigation end -->
+          </div>
+          <!-- image slider end -->
         </div>
-      </nav>
+      </div>
     </header>
 
     <script
