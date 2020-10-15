@@ -1,67 +1,446 @@
-body
-  overflow: hidden
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap')
 
-.body-slider
-  margin: 0
-  padding: 0
-  height: 100vh
+$font-primary: 'Poppins', sans-serif
+$color-primary: #012756
+$color-navigation: #03071E
+$color-anchor-hover: #F5B51F
+
+body
+  font-family: $font-primary
+
+header
+  nav
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2)
+    .navbar-brand
+      color: $color-primary !important
+      font-family: $font-primary
+      font-size: 30px
+      font-weight: 600
+
+    .collapse
+      .navbar-nav
+        a
+          color: $color-navigation !important
+          font-weight: 500
+
+        a:hover
+          color: $color-anchor-hover !important
+
+        .active
+          color: $color-anchor-hover !important
+
+    .waNav-desktop-display
+      a
+        padding: 5px 10px
+        background: #13990A
+        border-radius: 10px
+        color: #ffffff
+        font-size: 18px
+        font-weight: 500
+        margin-left: 5px
+        img
+          height: 24px
+
+      a:hover
+        text-decoration: none
+
+    .waNav-mobile-display
+      a
+        padding: 5px 10px
+        background: #13990A
+        border-radius: 10px
+        color: #ffffff
+        font-size: 18px
+        font-weight: 500
+        margin-left: 5px
+        img
+          height: 24px
+
+      a:hover
+        text-decoration: none
+
+  .jumbotron
+    margin-top: 70px
+    height: 300px
+    background: $color-primary
+    color: #ffffff
+    text-align: center
+    display: flex
+    align-items: center
+
+    .display-4
+      font-size: 30px
+      text-transform: uppercase
+      font-weight: 600
+
+main
+  margin-top: 120px
+  margin-bottom: 100px
+
+  .img-fluid
+    border-radius: 20px
+    margin: 20px 0px
+    height: 350px
+    transition: .5s
+
+  // .slick-slide
+  //   .img-fluid
+  //     height: 450px
+
+  // .slick-center
+  //   .img-fluid
+  //     height: 600px
+  //     margin: 0px
+  //     transition: 1s
+  // .title-blog
+  //   font-weight: 600
+
+  .leasing-partner
+    .img-fluid
+      height: 64px
+  .card-home
+    padding: 50px
+    background: $color-primary !important
+    color: #ffffff
+    form
+      padding: 0px 30px
+
+      .card-jaminan
+        display: flex
+        align-items: center
+        justify-content: space-between
+        .pilihJaminan
+          text-align: start !important
+
+        .jaminan-foto
+          display: block
+          img
+            margin-top: 10px
+            border-radius: none
+            height: 84px
+            width: 84px
+            padding: 10px
+            margin-right: 10px
+
+  ul
+    list-style: none
+
+  .btn-custom
+    background: #F5B51F
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2)
+
+  .btn-custom:hover
+    background: #cc971d
+
+  .dataPengajuan
+    color: #ffffff
+    .jumbotron
+      background-image: url('../../image/background.jpg')
+    .jumlah-data
+      font-size: 64px
+
+  .dataPengajuanTanpaSurvey
+    color: #ffffff
+    .jumbotron
+      margin-top: -40px
+      background: $color-primary
+      .btn-custom
+        color: $color-anchor-hover
+        background: $color-primary
+        border: 1px solid $color-anchor-hover
+
+      .btn-custom:hover
+        color: $color-primary
+        background: $color-anchor-hover
+        border: 1px solid $color-primary
+
+footer
+  background: $color-primary
+  color: #ffffff
+  min-height: 230px
   display: flex
-  justify-content: center
   align-items: center
 
-  .slider
-    width: 800px
-    height: 500px
-    border-radius: 10px
+  .logo
+    font-size: 26px
+    color: $color-anchor-hover
+    font-weight: 500
+    letter-spacing: 2px
 
-    .slides
-      width: 500%
-      height: 500px
-      display: flex
+  .corporate
+    font-size: 14px
+    font-weight: 500
 
-      input
+  .alamatCorporate
+    margin-top: 15px
+    font-size: 14px
+
+  .contactCorporate
+    font-size: 14px
+
+  .emailCorporate
+    font-size: 14px
+
+  .copyright
+    position: absolute
+    bottom: 0
+
+@media screen and ( min-width: 0px )
+  header
+    nav
+      font-size: 14px
+
+      .navbar-brand
+        font-size: 25px
+      .waNav-desktop-display
         display: none
 
-      .slide
-        width: 20%
-        transition: 2s
-        margin: 0px 20px
+      .waNav-mobile-display
+        display: flex
+        margin-left: auto
+        margin-right: 20px
+        a
+          font-size: 10px
 
-        img
-          width: 800px
-          height: 300px
+    .jumbotron
+      margin-top: 60px
+      height: 200px
 
-    #radio1:checked ~ .first
-      margin-left: 0
-      img
-        height: 500px
-        transition: .5s
+      .display-4
+        font-size: 25px
 
-    #radio2:checked ~ .first
-      margin-left: -20%
-      img
-        height: 500px
-        transition: .5s
+  footer
+    .logo
+      font-size: 20px
+      margin-top: 20px
 
-    #radio3:checked ~ .first
-      margin-left: -40%
-    // css for manual slide navigation
-    .navigation-manual
-      position: absolute
-      width: 800px
-      margin-top: 10px
-      display: flex
-      justify-content: center
+    .corporate
+      font-size: 12px
+      font-weight: 500
 
-      .manual-btn
-        border: 2px solid red
-        padding: 5px
-        border-radius: 10px
-        cursor: pointer
-        transition: .5s
+    .alamatCorporate
+      margin-top: 15px
+      font-size: 12px
 
-      .manual-btn:not(:last-child)
-        margin-right: 40px
+    .contactCorporate
+      font-size: 12px
 
-      .manual-btn:hover
-        background: red
+    .emailCorporate
+      font-size: 12px
+
+    .copyright
+      text-align: center
+      margin: 30px 0px
+      position: relative
+      font-size: 12px
+
+@media screen and ( min-width: 576px  )
+  header
+    nav
+      font-size: 14px
+
+      .navbar-brand
+        font-size: 25px
+      .waNav-desktop-display
+        display: none
+
+      .waNav-mobile-display
+        display: flex
+        margin-left: auto
+        margin-right: 20px
+        a
+          font-size: 10px
+
+    .jumbotron
+      margin-top: 60px
+      height: 200px
+
+      .display-4
+        font-size: 25px
+
+  main
+    #accordion
+      .card-header
+        h5
+          .btn
+            font-size: 14px !important
+        .card-body
+          font-size: 12px !important
+
+  footer
+    .logo
+      font-size: 20px
+      margin-top: 20px
+
+    .corporate
+      font-size: 12px
+      font-weight: 500
+
+    .alamatCorporate
+      margin-top: 15px
+      font-size: 12px
+
+    .contactCorporate
+      font-size: 12px
+
+    .emailCorporate
+      font-size: 12px
+
+    .copyright
+      text-align: center
+      margin: 30px 0px
+      position: relative
+      font-size: 12px
+
+@media screen and ( min-width: 768px )
+  header
+    nav
+      font-size: 14px
+
+      .navbar-brand
+        font-size: 25px
+      .waNav-desktop-display
+        display: none
+
+      .waNav-mobile-display
+        display: flex
+        margin-left: auto
+        margin-right: 20px
+        a
+          font-size: 10px
+
+    .jumbotron
+      margin-top: 60px
+      height: 200px
+
+      .display-4
+        font-size: 25px
+
+  main
+    #accordion
+      .card-header
+        h5
+          .btn
+            font-size: 16px !important
+        .card-body
+          font-size: 14px !important
+
+  footer
+    .logo
+      font-size: 20px
+      margin-top: 20px
+
+    .corporate
+      font-size: 12px
+      font-weight: 500
+
+    .alamatCorporate
+      margin-top: 15px
+      font-size: 12px
+
+    .contactCorporate
+      font-size: 12px
+
+    .emailCorporate
+      font-size: 12px
+
+    .copyright
+      text-align: center
+      margin: 30px 0px
+      position: relative
+      font-size: 12px
+
+@media screen and ( min-width: 992px )
+  header
+    nav
+      font-size: 14px
+
+      .navbar-brand
+        font-size: 25px
+      .waNav-desktop-display
+        display: flex
+
+        a
+          font-size: 10px
+
+      .waNav-mobile-display
+        display: none
+
+    .jumbotron
+      margin-top: 60px
+      height: 200px
+
+      .display-4
+        font-size: 25px
+  footer
+    .logo
+      font-size: 20px
+      margin-top: 20px
+
+    .corporate
+      font-size: 12px
+      font-weight: 500
+
+    .alamatCorporate
+      margin-top: 15px
+      font-size: 12px
+
+    .contactCorporate
+      font-size: 12px
+
+    .emailCorporate
+      font-size: 12px
+
+    .copyright
+      text-align: center
+      margin: 30px 0px
+      position: relative
+      font-size: 12px
+
+@media screen and ( min-width: 1200px )
+  header
+    nav
+      font-size: 18px
+
+      .navbar-brand
+        font-size: 30px
+      .waNav-desktop-display
+        display: flex
+        align-items: center
+        a
+          font-size: 16px
+
+      .waNav-mobile-display
+        display: none
+
+    .jumbotron
+      margin-top: 60px
+      height: 200px
+
+      .display-4
+        font-size: 25px
+
+  footer
+    .logo
+      font-size: 24px
+      margin-top: 20px
+
+    .corporate
+      font-size: 14px
+      font-weight: 500
+
+    .alamatCorporate
+      margin-top: 15px
+      font-size: 14px
+
+    .contactCorporate
+      font-size: 14px
+
+    .emailCorporate
+      font-size: 14px
+
+    .copyright
+      text-align: center
+      margin: 30px 0px
+      position: relative
+      font-size: 14px
