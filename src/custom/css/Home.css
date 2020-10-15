@@ -515,6 +515,16 @@ footer .copyright {
     margin-right: auto;
     position: static;
   }
+  main .card-home form .card-input-home label input {
+    display: none;
+    position: absolute;
+  }
+  main .card-home form .card-input-home label input + img {
+    cursor: pointer;
+  }
+  main .card-home form .card-input-home label input:checked ~ img {
+    outline: 2px solid #F5B51F;
+  }
   main .card-home form .card-input-home img {
     height: 44px;
     margin-left: 30px;
@@ -600,6 +610,7 @@ footer .copyright {
             box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
     padding: 10px;
     border-radius: 10px;
+    width: 100%;
   }
   main .testimoni .card-testimoni p {
     font-size: 16px;

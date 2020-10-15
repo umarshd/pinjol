@@ -52,13 +52,13 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="ml-auto mr-auto navbar-nav">
-              <a class="nav-item nav-link" href="#"
+              <a class="nav-item nav-link active" href="#"
                 >Home <span class="sr-only">(current)</span></a
               >
               <a class="nav-item nav-link" href="#">Ajukan Sekarang</a>
               <a class="nav-item nav-link" href="#">Persyaratan</a>
               <a class="nav-item nav-link" href="#">Leasing</a>
-              <a class="nav-item nav-link active" href="#">FAQ</a>
+              <a class="nav-item nav-link" href="#">FAQ</a>
               <a class="nav-item nav-link" href="#">Blog</a>
               <a class="nav-item nav-link" href="#">Disclaimer</a>
             </div>
@@ -158,26 +158,32 @@
                 <div class="col-md-10 col-sm-12">
                   <form>
                     <div class="row">
-                      <div class="col-md-4 col-sm-12">
+                      <div class="col-4">
                         <h6 class="">Pilih Jaminan</h6>
                       </div>
-                      <div class="col-md-4 col-sm-6">
+                      <div class="col-4">
                         <div class="card-input-home">
-                          <img
-                            src="./src/image/Motor Black.png "
-                            class="img-fluid"
-                            alt=""
-                          />
+                          <label>
+                            <input type="radio" name="moto" id="motor" />
+                            <img
+                              src="./src/image/Motor Black.png "
+                              class="img-fluid"
+                              alt=""
+                            />
+                          </label>
                         </div>
                         <p>BPKB Motor</p>
                       </div>
-                      <div class="col-md-4 col-sm-6">
+                      <div class="col-4">
                         <div class="card-input-home">
-                          <img
-                            src="./src/image/Mobil Black.png"
-                            class="img-fluid"
-                            alt=""
-                          />
+                          <label>
+                            <input type="radio" name="mobil" id="mobil" />
+                            <img
+                              src="./src/image/Mobil Black.png"
+                              class="img-fluid"
+                              alt=""
+                            />
+                          </label>
                         </div>
                         <p>BPKB Mobil/Truk</p>
                       </div>
@@ -383,76 +389,69 @@
         </div>
       </div>
 
-      <!-- testimoni -->
       <div class="container testimoni">
         <div class="row">
-          <div class="col-md-4 col-sm-12">
+          <div class="col-md-4 col-sm-12 col-12">
             <h4>Apa Kata Mereka ?</h4>
             <p>
               Selalu ada jalan untuk meraih impian Anda bersama HALOGADAI. Yuk
               simak kata mereka yang sukses mengajukan pinjaman di HALOGADAI
             </p>
           </div>
-          <div class="col-md-4 offset-md-4 col-sm-12">
+          <div class="col-md-4 offset-md-4 col-sm-12 col-12">
             <div class="card-testimoni">
-              <div class="row responsive">
-                <div class="col-md-12">
-                  <div class="row">
-                    <div
-                      class="col-md-4 col-sm-4 col-4 text-center justify-content-center"
-                    >
-                      <div class="profile-testimoni">
-                        <img
-                          src="./src/image/header.png"
-                          class="rounded-circle"
-                          alt=""
-                        />
-                        <div class="profile-testimoni-name">Bu Sofiyah</div>
-                        <div class="profile-testimoni-usaha">
-                          Owner Fia Bakery
-                        </div>
-                        <div class="profile-testimoni-alamat">
-                          Tangeran Selatan
-                        </div>
+              <div class="responsive">
+                <div class="row justify-content-center text-center">
+                  <div class="col-md-4 col-sm-12 col-12">
+                    <div class="profile-testimoni">
+                      <img
+                        src="./src/image/header.png"
+                        class="rounded-circle mt-3"
+                        alt=""
+                      />
+                      <div class="profile-testimoni-name">Bu Sofiyah</div>
+                      <div class="profile-testimoni-usaha">
+                        Owner Fia Bakery
                       </div>
-                    </div>
-                    <div class="col-md-8 col-sm-8 col-8">
-                      <div class="testimonial">
-                        <blockquote>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Inventore dicta aperiam labore rem nihil.
-                          Officia eos repellendus aliquam fuga aspernatur?
-                        </blockquote>
+                      <div class="profile-testimoni-alamat">
+                        Tangeran Selatan
                       </div>
                     </div>
                   </div>
+                  <div class="col-md-4 col-sm-12 col-12">
+                    <div class="testimonial mt-3">
+                      <blockquote>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Inventore dicta aperiam labore rem nihil. Officia eos
+                        repellendus aliquam fuga aspernatur?
+                      </blockquote>
+                    </div>
+                  </div>
                 </div>
-                <div class="col-md-12">
-                  <div class="row">
-                    <div class="col-md-4 text-center justify-content-center">
-                      <div class="profile-testimoni">
-                        <img
-                          src="./src/image/header.png"
-                          class="rounded-circle"
-                          alt=""
-                        />
-                        <div class="profile-testimoni-name">Bu Sofiyah</div>
-                        <div class="profile-testimoni-usaha">
-                          Owner Fia Bakery
-                        </div>
-                        <div class="profile-testimoni-alamat">
-                          Tangeran Selatan
-                        </div>
+                <div class="row justify-content-center text-center">
+                  <div class="col-md-4 col-sm-12 col-12">
+                    <div class="profile-testimoni">
+                      <img
+                        src="./src/image/header.png"
+                        class="rounded-circle mt-3"
+                        alt=""
+                      />
+                      <div class="profile-testimoni-name">Bu Sofiyah</div>
+                      <div class="profile-testimoni-usaha">
+                        Owner Fia Bakery
+                      </div>
+                      <div class="profile-testimoni-alamat">
+                        Tangeran Selatan
                       </div>
                     </div>
-                    <div class="col-md-8">
-                      <div class="testimonial">
-                        <blockquote>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Inventore dicta aperiam labore rem nihil.
-                          Officia eos repellendus aliquam fuga aspernatur?
-                        </blockquote>
-                      </div>
+                  </div>
+                  <div class="col-md-8 col-sm-12 col-12">
+                    <div class="testimonial mt-3">
+                      <blockquote>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Inventore dicta aperiam labore rem nihil. Officia eos
+                        repellendus aliquam fuga aspernatur?
+                      </blockquote>
                     </div>
                   </div>
                 </div>
@@ -824,10 +823,10 @@
 
       $(".responsive").slick({
         dots: true,
-        infinite: false,
         speed: 300,
         slidesToShow: 1,
         slidesToScroll: 1,
+        infinite: true,
         responsive: [
           {
             breakpoint: 1024,
@@ -857,6 +856,15 @@
           // instead of a settings object
         ],
       });
+
+      var radios = document.getElementsByTagName("input");
+      for (i = 0; i < radios.length; i++) {
+        radios[i].onclick = function (e) {
+          if (e.ctrlKey) {
+            this.checked = false;
+          }
+        };
+      }
     </script>
   </body>
 </html>
