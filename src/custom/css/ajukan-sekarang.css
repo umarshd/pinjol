@@ -265,34 +265,29 @@ footer .copyright {
     margin: 87px 0px;
   }
   main .container .form-group label {
-    -webkit-box-flex: 20%;
-        -ms-flex: 20%;
-            flex: 20%;
-    font-size: 14px;
+    font-size: 12px;
   }
   main .container .form-group input {
-    -webkit-box-flex: 80%;
-        -ms-flex: 80%;
-            flex: 80%;
-    font-size: 14px;
+    font-size: 12px;
   }
   main .container .form-group textarea {
-    -webkit-box-flex: 80%;
-        -ms-flex: 80%;
-            flex: 80%;
+    font-size: 12px;
   }
   main .container .form-group select {
     -webkit-box-flex: 80%;
         -ms-flex: 80%;
             flex: 80%;
+    font-size: 12px;
   }
   main .container .form-check {
     margin-left: 0px;
     margin-right: 100px;
     position: relative;
-    height: 5vh;
+    height: 4vh;
+    font-size: 12px;
   }
   main .container .form-check label {
+    margin-top: 3px;
     position: absolute;
     left: -70px;
   }
@@ -301,11 +296,7 @@ footer .copyright {
     left: -70px;
   }
   main .container button {
-    background: #F5B51F;
-    border: none;
-  }
-  main .container button:hover {
-    background: #cc971d;
+    font-size: 12px;
   }
   footer .logo {
     font-size: 20px;
@@ -380,34 +371,26 @@ footer .copyright {
     margin: 87px 0px;
   }
   main .container .form-group label {
-    -webkit-box-flex: 20%;
-        -ms-flex: 20%;
-            flex: 20%;
     font-size: 14px;
   }
   main .container .form-group input {
-    -webkit-box-flex: 80%;
-        -ms-flex: 80%;
-            flex: 80%;
     font-size: 14px;
   }
   main .container .form-group textarea {
-    -webkit-box-flex: 80%;
-        -ms-flex: 80%;
-            flex: 80%;
+    font-size: 14px;
   }
   main .container .form-group select {
-    -webkit-box-flex: 80%;
-        -ms-flex: 80%;
-            flex: 80%;
+    font-size: 14px;
   }
   main .container .form-check {
     margin-left: 0px;
     margin-right: 100px;
     position: relative;
     height: 5vh;
+    font-size: 14px;
   }
   main .container .form-check label {
+    margin-top: 0px;
     position: absolute;
     left: -60px;
   }
@@ -495,26 +478,10 @@ footer .copyright {
     margin: 87px 0px;
   }
   main .container .form-group label {
-    -webkit-box-flex: 20%;
-        -ms-flex: 20%;
-            flex: 20%;
     font-size: 14px;
   }
   main .container .form-group input {
-    -webkit-box-flex: 80%;
-        -ms-flex: 80%;
-            flex: 80%;
     font-size: 14px;
-  }
-  main .container .form-group textarea {
-    -webkit-box-flex: 80%;
-        -ms-flex: 80%;
-            flex: 80%;
-  }
-  main .container .form-group select {
-    -webkit-box-flex: 80%;
-        -ms-flex: 80%;
-            flex: 80%;
   }
   main .container .form-check {
     margin-left: 0px;
@@ -533,6 +500,7 @@ footer .copyright {
   main .container button {
     background: #F5B51F;
     border: none;
+    font-size: 14px;
   }
   main .container button:hover {
     background: #cc971d;
@@ -571,17 +539,15 @@ footer .copyright {
     font-size: 25px;
   }
   header nav .waNav-desktop-display {
-    display: none;
-  }
-  header nav .waNav-mobile-display {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-left: auto;
-    margin-right: 20px;
   }
-  header nav .waNav-mobile-display a {
+  header nav .waNav-desktop-display a {
     font-size: 10px;
+  }
+  header nav .waNav-mobile-display {
+    display: none;
   }
   header .jumbotron {
     margin-top: 60px;
@@ -610,26 +576,10 @@ footer .copyright {
     margin: 87px 0px;
   }
   main .container .form-group label {
-    -webkit-box-flex: 20%;
-        -ms-flex: 20%;
-            flex: 20%;
     font-size: 14px;
   }
   main .container .form-group input {
-    -webkit-box-flex: 80%;
-        -ms-flex: 80%;
-            flex: 80%;
     font-size: 14px;
-  }
-  main .container .form-group textarea {
-    -webkit-box-flex: 80%;
-        -ms-flex: 80%;
-            flex: 80%;
-  }
-  main .container .form-group select {
-    -webkit-box-flex: 80%;
-        -ms-flex: 80%;
-            flex: 80%;
   }
   main .container .form-check {
     margin-left: 0px;
@@ -727,32 +677,23 @@ footer .copyright {
     margin: 87px 0px;
   }
   main .container .form-group label {
-    -webkit-box-flex: 20%;
-        -ms-flex: 20%;
-            flex: 20%;
     font-size: 18px;
   }
   main .container .form-group input {
-    -webkit-box-flex: 80%;
-        -ms-flex: 80%;
-            flex: 80%;
     font-size: 18px;
   }
   main .container .form-group textarea {
-    -webkit-box-flex: 80%;
-        -ms-flex: 80%;
-            flex: 80%;
+    font-size: 18px;
   }
   main .container .form-group select {
-    -webkit-box-flex: 80%;
-        -ms-flex: 80%;
-            flex: 80%;
+    font-size: 18px;
   }
   main .container .form-check {
     margin-left: 0px;
     margin-right: 100px;
     position: relative;
     height: 5vh;
+    font-size: 18px;
   }
   main .container .form-check label {
     position: absolute;
@@ -765,33 +706,34 @@ footer .copyright {
   main .container button {
     background: #F5B51F;
     border: none;
+    font-size: 18px;
   }
   main .container button:hover {
     background: #cc971d;
   }
   footer .logo {
-    font-size: 20px;
+    font-size: 24px;
     margin-top: 20px;
   }
   footer .corporate {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
   }
   footer .alamatCorporate {
     margin-top: 15px;
-    font-size: 12px;
+    font-size: 14px;
   }
   footer .contactCorporate {
-    font-size: 12px;
+    font-size: 14px;
   }
   footer .emailCorporate {
-    font-size: 12px;
+    font-size: 14px;
   }
   footer .copyright {
     text-align: center;
     margin: 30px 0px;
     position: relative;
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 /*# sourceMappingURL=ajukan-sekarang.css.map */

@@ -29,7 +29,22 @@ header
         .active
           color: $color-anchor-hover !important
 
-    .waNav
+    .waNav-desktop-display
+      a
+        padding: 5px 10px
+        background: #13990A
+        border-radius: 10px
+        color: #ffffff
+        font-size: 18px
+        font-weight: 500
+        margin-left: 5px
+        img
+          height: 24px
+
+      a:hover
+        text-decoration: none
+
+    .waNav-mobile-display
       a
         padding: 5px 10px
         background: #13990A
@@ -65,6 +80,7 @@ main
     font-weight: 600
 
   .card
+    // min-height: 320px
     .card-body
       p
         font-size: 14px
@@ -125,10 +141,262 @@ footer
     position: absolute
     bottom: 0
 
-// @media screen and ( max-width: 576px  )
+@media screen and ( min-width: 0px )
+  header
+    nav
+      font-size: 14px
 
-// @media screen and ( max-width: 768px )
+      .navbar-brand
+        font-size: 25px
+      .waNav-desktop-display
+        display: none
 
-// @media screen and ( max-width: 992px )
+      .waNav-mobile-display
+        display: flex
+        margin-left: auto
+        margin-right: 20px
+        a
+          font-size: 10px
 
-// @media screen and ( max-width: 1200px )
+    .jumbotron
+      margin-top: 60px
+      height: 200px
+
+      .display-4
+        font-size: 25px
+
+  footer
+    .logo
+      font-size: 20px
+      margin-top: 20px
+
+    .corporate
+      font-size: 12px
+      font-weight: 500
+
+    .alamatCorporate
+      margin-top: 15px
+      font-size: 12px
+
+    .contactCorporate
+      font-size: 12px
+
+    .emailCorporate
+      font-size: 12px
+
+    .copyright
+      text-align: center
+      margin: 30px 0px
+      position: relative
+      font-size: 12px
+
+@media screen and ( min-width: 576px  )
+  header
+    nav
+      font-size: 14px
+
+      .navbar-brand
+        font-size: 25px
+      .waNav-desktop-display
+        display: none
+
+      .waNav-mobile-display
+        display: flex
+        margin-left: auto
+        margin-right: 20px
+        a
+          font-size: 10px
+
+    .jumbotron
+      margin-top: 60px
+      height: 200px
+
+      .display-4
+        font-size: 25px
+
+  main
+    #accordion
+      .card-header
+        h5
+          .btn
+            font-size: 14px !important
+        .card-body
+          font-size: 12px !important
+
+  footer
+    .logo
+      font-size: 20px
+      margin-top: 20px
+
+    .corporate
+      font-size: 12px
+      font-weight: 500
+
+    .alamatCorporate
+      margin-top: 15px
+      font-size: 12px
+
+    .contactCorporate
+      font-size: 12px
+
+    .emailCorporate
+      font-size: 12px
+
+    .copyright
+      text-align: center
+      margin: 30px 0px
+      position: relative
+      font-size: 12px
+
+@media screen and ( min-width: 768px )
+  header
+    nav
+      font-size: 14px
+
+      .navbar-brand
+        font-size: 25px
+      .waNav-desktop-display
+        display: none
+
+      .waNav-mobile-display
+        display: flex
+        margin-left: auto
+        margin-right: 20px
+        a
+          font-size: 10px
+
+    .jumbotron
+      margin-top: 60px
+      height: 200px
+
+      .display-4
+        font-size: 25px
+
+  main
+    #accordion
+      .card-header
+        h5
+          .btn
+            font-size: 16px !important
+        .card-body
+          font-size: 14px !important
+
+  footer
+    .logo
+      font-size: 20px
+      margin-top: 20px
+
+    .corporate
+      font-size: 12px
+      font-weight: 500
+
+    .alamatCorporate
+      margin-top: 15px
+      font-size: 12px
+
+    .contactCorporate
+      font-size: 12px
+
+    .emailCorporate
+      font-size: 12px
+
+    .copyright
+      text-align: center
+      margin: 30px 0px
+      position: relative
+      font-size: 12px
+
+@media screen and ( min-width: 992px )
+  header
+    nav
+      font-size: 14px
+
+      .navbar-brand
+        font-size: 25px
+      .waNav-desktop-display
+        display: flex
+
+        a
+          font-size: 10px
+
+      .waNav-mobile-display
+        display: none
+
+    .jumbotron
+      margin-top: 60px
+      height: 200px
+
+      .display-4
+        font-size: 25px
+  footer
+    .logo
+      font-size: 20px
+      margin-top: 20px
+
+    .corporate
+      font-size: 12px
+      font-weight: 500
+
+    .alamatCorporate
+      margin-top: 15px
+      font-size: 12px
+
+    .contactCorporate
+      font-size: 12px
+
+    .emailCorporate
+      font-size: 12px
+
+    .copyright
+      text-align: center
+      margin: 30px 0px
+      position: relative
+      font-size: 12px
+
+@media screen and ( min-width: 1200px )
+  header
+    nav
+      font-size: 18px
+
+      .navbar-brand
+        font-size: 30px
+      .waNav-desktop-display
+        display: flex
+        align-items: center
+        a
+          font-size: 16px
+
+      .waNav-mobile-display
+        display: none
+
+    .jumbotron
+      margin-top: 60px
+      height: 200px
+
+      .display-4
+        font-size: 25px
+
+  footer
+    .logo
+      font-size: 24px
+      margin-top: 20px
+
+    .corporate
+      font-size: 14px
+      font-weight: 500
+
+    .alamatCorporate
+      margin-top: 15px
+      font-size: 14px
+
+    .contactCorporate
+      font-size: 14px
+
+    .emailCorporate
+      font-size: 14px
+
+    .copyright
+      text-align: center
+      margin: 30px 0px
+      position: relative
+      font-size: 14px

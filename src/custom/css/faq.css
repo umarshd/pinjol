@@ -28,7 +28,7 @@ header nav .collapse .navbar-nav .active {
   color: #F5B51F !important;
 }
 
-header nav .waNav a {
+header nav .waNav-desktop-display a {
   padding: 5px 10px;
   background: #13990A;
   border-radius: 10px;
@@ -38,11 +38,29 @@ header nav .waNav a {
   margin-left: 5px;
 }
 
-header nav .waNav a img {
+header nav .waNav-desktop-display a img {
   height: 24px;
 }
 
-header nav .waNav a:hover {
+header nav .waNav-desktop-display a:hover {
+  text-decoration: none;
+}
+
+header nav .waNav-mobile-display a {
+  padding: 5px 10px;
+  background: #13990A;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+header nav .waNav-mobile-display a img {
+  height: 24px;
+}
+
+header nav .waNav-mobile-display a:hover {
   text-decoration: none;
 }
 
@@ -70,46 +88,9 @@ main {
   margin-bottom: 100px;
 }
 
-main .title-persyaratan {
+main .title-faq {
   font-weight: 600;
   margin-bottom: 100px;
-}
-
-main .card-leasing {
-  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
-          box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
-  padding: 20px;
-  height: 400px;
-}
-
-main .card-leasing .image-partner-leasing {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-bottom: 30px;
-}
-
-main .card-leasing .image-partner-leasing img {
-  height: 64px;
-}
-
-main .card-leasing .corporate-partner-leasing h5 {
-  color: #012756;
-  font-weight: 600;
-  margin-bottom: 0px;
-  font-size: 16px;
-}
-
-main .card-leasing .corporate-partner-leasing p {
-  font-size: 14px;
-}
-
-main .card-leasing .alamat-corporate-partner-leasing p {
-  margin: 0px 0px;
-  font-size: 14px;
 }
 
 main #accordion .card {
@@ -203,5 +184,324 @@ footer .emailCorporate {
 footer .copyright {
   position: absolute;
   bottom: 0;
+}
+
+@media screen and (min-width: 0px) {
+  header nav {
+    font-size: 14px;
+  }
+  header nav .navbar-brand {
+    font-size: 25px;
+  }
+  header nav .waNav-desktop-display {
+    display: none;
+  }
+  header nav .waNav-mobile-display {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+  }
+  header nav .waNav-mobile-display a {
+    font-size: 10px;
+  }
+  header .jumbotron {
+    margin-top: 60px;
+    height: 200px;
+  }
+  header .jumbotron .display-4 {
+    font-size: 25px;
+  }
+  main #accordion .card {
+    border: none;
+  }
+  main #accordion .card .card-header {
+    border: none;
+    background: none;
+    padding-bottom: 0px;
+  }
+  main #accordion .card .card-header h5 .btn {
+    padding-bottom: 0px;
+    font-size: 12px;
+  }
+  main #accordion .card .card-header h5 button {
+    color: black !important;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+  }
+  main #accordion .card .card-header h5 button i {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+    -webkit-transition: 1s;
+    transition: 1s;
+    margin: 0 20px 0 -20px;
+  }
+  main #accordion .card .card-header h5 .collapsed i {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+  main #accordion .card .card-header h5 .btn-link {
+    text-decoration: none;
+  }
+  main #accordion .card .card-header h5 button:hover {
+    text-decoration: none;
+  }
+  main #accordion .card .card-body {
+    font-size: 10px !important;
+    padding: 5px 0px 0px 30px;
+  }
+  footer .logo {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  footer .corporate {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  footer .alamatCorporate {
+    margin-top: 15px;
+    font-size: 12px;
+  }
+  footer .contactCorporate {
+    font-size: 12px;
+  }
+  footer .emailCorporate {
+    font-size: 12px;
+  }
+  footer .copyright {
+    text-align: center;
+    margin: 30px 0px;
+    position: relative;
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  header nav {
+    font-size: 14px;
+  }
+  header nav .navbar-brand {
+    font-size: 25px;
+  }
+  header nav .waNav-desktop-display {
+    display: none;
+  }
+  header nav .waNav-mobile-display {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+  }
+  header nav .waNav-mobile-display a {
+    font-size: 10px;
+  }
+  header .jumbotron {
+    margin-top: 60px;
+    height: 200px;
+  }
+  header .jumbotron .display-4 {
+    font-size: 25px;
+  }
+  main #accordion .card-header h5 .btn {
+    font-size: 14px !important;
+  }
+  main #accordion .card-header .card-body {
+    font-size: 12px !important;
+  }
+  footer .logo {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  footer .corporate {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  footer .alamatCorporate {
+    margin-top: 15px;
+    font-size: 12px;
+  }
+  footer .contactCorporate {
+    font-size: 12px;
+  }
+  footer .emailCorporate {
+    font-size: 12px;
+  }
+  footer .copyright {
+    text-align: center;
+    margin: 30px 0px;
+    position: relative;
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  header nav {
+    font-size: 14px;
+  }
+  header nav .navbar-brand {
+    font-size: 25px;
+  }
+  header nav .waNav-desktop-display {
+    display: none;
+  }
+  header nav .waNav-mobile-display {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+  }
+  header nav .waNav-mobile-display a {
+    font-size: 10px;
+  }
+  header .jumbotron {
+    margin-top: 60px;
+    height: 200px;
+  }
+  header .jumbotron .display-4 {
+    font-size: 25px;
+  }
+  main #accordion .card-header h5 .btn {
+    font-size: 16px !important;
+  }
+  main #accordion .card-header .card-body {
+    font-size: 14px !important;
+  }
+  footer .logo {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  footer .corporate {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  footer .alamatCorporate {
+    margin-top: 15px;
+    font-size: 12px;
+  }
+  footer .contactCorporate {
+    font-size: 12px;
+  }
+  footer .emailCorporate {
+    font-size: 12px;
+  }
+  footer .copyright {
+    text-align: center;
+    margin: 30px 0px;
+    position: relative;
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  header nav {
+    font-size: 14px;
+  }
+  header nav .navbar-brand {
+    font-size: 25px;
+  }
+  header nav .waNav-desktop-display {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header nav .waNav-desktop-display a {
+    font-size: 10px;
+  }
+  header nav .waNav-mobile-display {
+    display: none;
+  }
+  header .jumbotron {
+    margin-top: 60px;
+    height: 200px;
+  }
+  header .jumbotron .display-4 {
+    font-size: 25px;
+  }
+  footer .logo {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  footer .corporate {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  footer .alamatCorporate {
+    margin-top: 15px;
+    font-size: 12px;
+  }
+  footer .contactCorporate {
+    font-size: 12px;
+  }
+  footer .emailCorporate {
+    font-size: 12px;
+  }
+  footer .copyright {
+    text-align: center;
+    margin: 30px 0px;
+    position: relative;
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  header nav {
+    font-size: 18px;
+  }
+  header nav .navbar-brand {
+    font-size: 30px;
+  }
+  header nav .waNav-desktop-display {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header nav .waNav-desktop-display a {
+    font-size: 16px;
+  }
+  header nav .waNav-mobile-display {
+    display: none;
+  }
+  header .jumbotron {
+    margin-top: 60px;
+    height: 200px;
+  }
+  header .jumbotron .display-4 {
+    font-size: 25px;
+  }
+  footer .logo {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  footer .corporate {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  footer .alamatCorporate {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  footer .contactCorporate {
+    font-size: 14px;
+  }
+  footer .emailCorporate {
+    font-size: 14px;
+  }
+  footer .copyright {
+    text-align: center;
+    margin: 30px 0px;
+    position: relative;
+    font-size: 14px;
+  }
 }
 /*# sourceMappingURL=faq.css.map */

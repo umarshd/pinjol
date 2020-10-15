@@ -28,7 +28,7 @@ header nav .collapse .navbar-nav .active {
   color: #F5B51F !important;
 }
 
-header nav .waNav a {
+header nav .waNav-desktop-display a {
   padding: 5px 10px;
   background: #13990A;
   border-radius: 10px;
@@ -38,11 +38,29 @@ header nav .waNav a {
   margin-left: 5px;
 }
 
-header nav .waNav a img {
+header nav .waNav-desktop-display a img {
   height: 24px;
 }
 
-header nav .waNav a:hover {
+header nav .waNav-desktop-display a:hover {
+  text-decoration: none;
+}
+
+header nav .waNav-mobile-display a {
+  padding: 5px 10px;
+  background: #13990A;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+header nav .waNav-mobile-display a img {
+  height: 24px;
+}
+
+header nav .waNav-mobile-display a:hover {
   text-decoration: none;
 }
 
@@ -151,5 +169,281 @@ footer .emailCorporate {
 footer .copyright {
   position: absolute;
   bottom: 0;
+}
+
+@media screen and (min-width: 0px) {
+  header nav {
+    font-size: 14px;
+  }
+  header nav .navbar-brand {
+    font-size: 25px;
+  }
+  header nav .waNav-desktop-display {
+    display: none;
+  }
+  header nav .waNav-mobile-display {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+  }
+  header nav .waNav-mobile-display a {
+    font-size: 10px;
+  }
+  header .jumbotron {
+    margin-top: 60px;
+    height: 200px;
+  }
+  header .jumbotron .display-4 {
+    font-size: 25px;
+  }
+  footer .logo {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  footer .corporate {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  footer .alamatCorporate {
+    margin-top: 15px;
+    font-size: 12px;
+  }
+  footer .contactCorporate {
+    font-size: 12px;
+  }
+  footer .emailCorporate {
+    font-size: 12px;
+  }
+  footer .copyright {
+    text-align: center;
+    margin: 30px 0px;
+    position: relative;
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  header nav {
+    font-size: 14px;
+  }
+  header nav .navbar-brand {
+    font-size: 25px;
+  }
+  header nav .waNav-desktop-display {
+    display: none;
+  }
+  header nav .waNav-mobile-display {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+  }
+  header nav .waNav-mobile-display a {
+    font-size: 10px;
+  }
+  header .jumbotron {
+    margin-top: 60px;
+    height: 200px;
+  }
+  header .jumbotron .display-4 {
+    font-size: 25px;
+  }
+  main #accordion .card-header h5 .btn {
+    font-size: 14px !important;
+  }
+  main #accordion .card-header .card-body {
+    font-size: 12px !important;
+  }
+  footer .logo {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  footer .corporate {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  footer .alamatCorporate {
+    margin-top: 15px;
+    font-size: 12px;
+  }
+  footer .contactCorporate {
+    font-size: 12px;
+  }
+  footer .emailCorporate {
+    font-size: 12px;
+  }
+  footer .copyright {
+    text-align: center;
+    margin: 30px 0px;
+    position: relative;
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  header nav {
+    font-size: 14px;
+  }
+  header nav .navbar-brand {
+    font-size: 25px;
+  }
+  header nav .waNav-desktop-display {
+    display: none;
+  }
+  header nav .waNav-mobile-display {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+  }
+  header nav .waNav-mobile-display a {
+    font-size: 10px;
+  }
+  header .jumbotron {
+    margin-top: 60px;
+    height: 200px;
+  }
+  header .jumbotron .display-4 {
+    font-size: 25px;
+  }
+  main #accordion .card-header h5 .btn {
+    font-size: 16px !important;
+  }
+  main #accordion .card-header .card-body {
+    font-size: 14px !important;
+  }
+  footer .logo {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  footer .corporate {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  footer .alamatCorporate {
+    margin-top: 15px;
+    font-size: 12px;
+  }
+  footer .contactCorporate {
+    font-size: 12px;
+  }
+  footer .emailCorporate {
+    font-size: 12px;
+  }
+  footer .copyright {
+    text-align: center;
+    margin: 30px 0px;
+    position: relative;
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  header nav {
+    font-size: 14px;
+  }
+  header nav .navbar-brand {
+    font-size: 25px;
+  }
+  header nav .waNav-desktop-display {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header nav .waNav-desktop-display a {
+    font-size: 10px;
+  }
+  header nav .waNav-mobile-display {
+    display: none;
+  }
+  header .jumbotron {
+    margin-top: 60px;
+    height: 200px;
+  }
+  header .jumbotron .display-4 {
+    font-size: 25px;
+  }
+  footer .logo {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  footer .corporate {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  footer .alamatCorporate {
+    margin-top: 15px;
+    font-size: 12px;
+  }
+  footer .contactCorporate {
+    font-size: 12px;
+  }
+  footer .emailCorporate {
+    font-size: 12px;
+  }
+  footer .copyright {
+    text-align: center;
+    margin: 30px 0px;
+    position: relative;
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  header nav {
+    font-size: 18px;
+  }
+  header nav .navbar-brand {
+    font-size: 30px;
+  }
+  header nav .waNav-desktop-display {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header nav .waNav-desktop-display a {
+    font-size: 16px;
+  }
+  header nav .waNav-mobile-display {
+    display: none;
+  }
+  header .jumbotron {
+    margin-top: 60px;
+    height: 200px;
+  }
+  header .jumbotron .display-4 {
+    font-size: 25px;
+  }
+  footer .logo {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  footer .corporate {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  footer .alamatCorporate {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  footer .contactCorporate {
+    font-size: 14px;
+  }
+  footer .emailCorporate {
+    font-size: 14px;
+  }
+  footer .copyright {
+    text-align: center;
+    margin: 30px 0px;
+    position: relative;
+    font-size: 14px;
+  }
 }
 /*# sourceMappingURL=blog.css.map */
