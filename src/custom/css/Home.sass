@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap')
 
 $font-primary: 'Poppins', sans-serif
 $color-primary: #012756
 $color-navigation: #03071E
 $color-anchor-hover: #F5B51F
+$font-body: 'Open Sans', sans-serif
 
 body
   font-family: $font-primary
@@ -77,50 +79,73 @@ main
   margin-top: 120px
   margin-bottom: 100px
 
+  .slider
+    .slider-card
+      position: relative
+      h3
+        position: absolute
+        top: 100px
+        left: 70px
+        color: white
+        width: 270px
+        font-size: 18px
+
+      p
+        position: absolute
+        top: 150px
+        left: 70px
+        color: $color-anchor-hover
+        width: 270px
+        font-size: 10px
+
+      .btn-custom
+        position: absolute
+        top: 200px
+        left: 70px
+        font-size: 14px !important
+
+      .mitra
+        position: absolute
+        top: 320px
+        left: 70px
+
+        img
+          height: 32px
+          top: -10px
+          left: 270px
+          position: absolute
+
   .img-fluid
     border-radius: 20px
     margin: 20px 0px
     height: 350px
     transition: .5s
 
-  // .slick-slide
-  //   .img-fluid
-  //     height: 450px
-
-  // .slick-center
-  //   .img-fluid
-  //     height: 600px
-  //     margin: 0px
-  //     transition: 1s
-  // .title-blog
-  //   font-weight: 600
-
   .leasing-partner
     .img-fluid
       height: 64px
   .card-home
     padding: 50px
-    background: $color-primary !important
+    background: $color-primary
+    border-radius: 20px
     color: #ffffff
     form
-      padding: 0px 30px
+      .card-input-home
+        color: black
+        background: white
+        width: 100px
+        justify-content: end
+        position: relative
+        right: -50px
 
-      .card-jaminan
-        display: flex
-        align-items: center
-        justify-content: space-between
-        .pilihJaminan
-          text-align: start !important
+        img
+          height: 64px
+          margin-left: 20px
 
-        .jaminan-foto
-          display: block
-          img
-            margin-top: 10px
-            border-radius: none
-            height: 84px
-            width: 84px
-            padding: 10px
-            margin-right: 10px
+      p
+        text-align: center
+        margin-left: 50px
+        font-size: 14px
 
   ul
     list-style: none
@@ -132,16 +157,21 @@ main
   .btn-custom:hover
     background: #cc971d
 
-  .dataPengajuan
+  .dataPengalaman
     color: #ffffff
     .jumbotron
       background-image: url('../../image/background.jpg')
-    .jumlah-data
-      font-size: 64px
+    img
+      height: 64px
+
+    .pengguna
+      font-size: 44px
 
   .dataPengajuanTanpaSurvey
     color: #ffffff
+    margin-top: 40px
     .jumbotron
+      overflow: hidden
       margin-top: -40px
       background: $color-primary
       .btn-custom
@@ -153,6 +183,133 @@ main
         color: $color-primary
         background: $color-anchor-hover
         border: 1px solid $color-primary
+
+  .dataPengajuanRules
+    margin-top: -40px
+    .jumbotron
+      background: $color-anchor-hover
+      .card-rules
+        background: #DCDBDA
+        padding: 20px
+        border-radius: 20px
+        box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.2)
+        min-height: 200px
+
+        .rulesImage
+        .rulesTitle
+          font-size: 14px
+          font-weight: 600
+
+        .rulesDesc
+          font-size: 12px
+
+        img
+          height: 64px
+          margin-bottom: 20px
+
+      .btn-custom
+        background: #707070
+        color: $color-anchor-hover
+
+      .btn-custom:hover
+        background: $color-anchor-hover
+        color: #707070
+        border: 1px solid #707070
+
+  .testimoni
+    .card-testimoni
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2)
+      padding: 10px
+      border-radius: 10px
+      p
+        font-size: 16px
+      .profile-testimoni
+        img
+          height: 64px
+          width: 64px
+          margin: 0px auto 10px
+
+        .profile-testimoni-name
+          font-size: 16px
+
+        .profile-testimoni-usaha
+          font-size: 10px
+
+        .profile-testimoni-alamat
+          font-size: 10px
+          font-style: italic
+
+      .testimonial
+        font-size: 12px
+
+  .title-faq
+    font-weight: 600
+  #accordion
+    .card
+      border: none
+
+      .card-header
+        border: none
+        background: none
+        padding-bottom: 0px
+
+        h5
+          .btn
+            padding-bottom: 0px
+          button
+            color: black !important
+            font-weight: 600
+            border-bottom: 1px solid rgba(0, 0, 0, 0.3)
+            width: 100%
+            text-align: left
+            padding-left: 20px
+
+            i
+              transform: rotate(-90deg)
+              transition: 1s
+              margin: 0 20px 0 -20px
+
+          .collapsed
+            i
+              transform: rotate(0deg)
+              transition: .5s
+
+          .btn-link
+            text-decoration: none
+
+          button:hover
+            text-decoration: none
+
+      .card-body
+        font-size: 12px
+        padding: 5px 0px 0px 30px
+
+  .card-sale
+    margin-top: 50px
+    background: $color-anchor-hover
+    padding: 20px
+    color: $color-primary
+    border-radius: 30px
+    img
+      height: 200px
+
+    .promo-title
+      font-size: 24px
+      color: $font-primary !important
+    .promo-tawaran
+      font-size: 14px
+      color: $font-primary !important
+    .btn-custom
+      margin: 10px 0px
+      width: 100%
+      background: $color-primary
+      color: $color-anchor-hover
+    .promo-tawaran-syarat
+      font-size: 12px
+
+  .pengawas
+    img
+      height: 64px
 
 footer
   background: $color-primary
@@ -208,6 +365,226 @@ footer
 
       .display-4
         font-size: 25px
+
+  main
+    margin-top: 120px
+    margin-bottom: 100px
+
+    .slider
+      .slider-card
+        position: relative
+        h3
+          position: absolute
+          top: 60px
+          left: 50px
+          color: white
+          width: 200px
+          font-size: 12px
+
+        p
+          position: absolute
+          top: 100px
+          left: 50px
+          color: $color-anchor-hover
+          width: 270px
+          font-size: 10px
+
+        .btn-custom
+          position: absolute
+          top: 140px
+          left: 50px
+          font-size: 10px !important
+
+        .mitra
+          position: absolute
+          top: 180px
+          left: 50px
+
+          img
+            height: 32px
+            top: -10px
+            left: 270px
+            position: absolute
+
+    .img-fluid
+      border-radius: 20px
+      margin: 20px 0px
+      height: 200px
+      transition: .5s
+
+    .card-home
+
+      form
+        .card-input-home
+          margin-left: auto
+          margin-right: auto
+          position: static
+          img
+            height: 44px
+            margin-left: 30px
+        p
+          margin-left: 0px
+
+    .dataPengalaman
+      color: #ffffff
+      font-size: 16px
+      h4
+        font-size: 20px
+      img
+        height: 44px
+
+      .pengguna
+        font-size: 32px
+
+    .dataPengajuanTanpaSurvey
+      color: #ffffff
+      margin-top: 40px
+      .jumbotron
+        overflow: hidden
+        margin-top: -40px
+        background: $color-primary
+        h4
+          font-size: 20px
+        .btn-custom
+          color: $color-anchor-hover
+          background: $color-primary
+          border: 1px solid $color-anchor-hover
+
+        .btn-custom:hover
+          color: $color-primary
+          background: $color-anchor-hover
+          border: 1px solid $color-primary
+
+    .dataPengajuanRules
+      margin-top: -40px
+      .jumbotron
+        background: $color-anchor-hover
+        h4
+          font-size: 20px
+        .card-rules
+          background: #DCDBDA
+          padding: 20px
+          border-radius: 20px
+          margin: 10px 0px
+          box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.2)
+          min-height: 100px
+
+          .rulesImage
+          .rulesTitle
+            font-size: 14px
+            font-weight: 600
+
+          .rulesDesc
+            font-size: 12px
+
+          img
+            height: 64px
+            margin-bottom: 20px
+
+        .btn-custom
+          background: #707070
+          color: $color-anchor-hover
+
+        .btn-custom:hover
+          background: $color-anchor-hover
+          color: #707070
+          border: 1px solid #707070
+
+    .testimoni
+      .card-testimoni
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2)
+        padding: 10px
+        border-radius: 10px
+        p
+          font-size: 16px
+        .profile-testimoni
+          img
+            height: 64px
+            width: 64px
+            margin: 0px auto 10px
+
+          .profile-testimoni-name
+            font-size: 16px
+
+          .profile-testimoni-usaha
+            font-size: 10px
+
+          .profile-testimoni-alamat
+            font-size: 10px
+            font-style: italic
+
+        .testimonial
+          font-size: 12px
+
+    .title-faq
+      font-weight: 600
+    #accordion
+      .card
+        border: none
+
+        .card-header
+          border: none
+          background: none
+          padding-bottom: 0px
+
+          h5
+            .btn
+              padding-bottom: 0px
+              font-size: 12px
+            button
+              color: black !important
+              font-weight: 600
+              border-bottom: 1px solid rgba(0, 0, 0, 0.3)
+              width: 100%
+              text-align: left
+              padding-left: 20px
+
+              i
+                transform: rotate(-90deg)
+                transition: 1s
+                margin: 0 20px 0 -20px
+
+            .collapsed
+              i
+                transform: rotate(0deg)
+                transition: .5s
+
+            .btn-link
+              text-decoration: none
+
+            button:hover
+              text-decoration: none
+
+        .card-body
+          font-size: 10px !important
+          padding: 5px 0px 0px 30px
+
+    .card-sale
+      margin-top: 50px
+      background: $color-anchor-hover
+      padding: 20px
+      color: $color-primary
+      border-radius: 30px
+      img
+        height: 200px
+
+      .promo-title
+        font-size: 24px
+        color: $font-primary !important
+      .promo-tawaran
+        font-size: 14px
+        color: $font-primary !important
+      .btn-custom
+        margin: 10px 0px
+        width: 100%
+        background: $color-primary
+        color: $color-anchor-hover
+      .promo-tawaran-syarat
+        font-size: 12px
+
+    .pengawas
+      img
+        height: 64px
 
   footer
     .logo
@@ -266,6 +643,221 @@ footer
             font-size: 14px !important
         .card-body
           font-size: 12px !important
+  main
+    .slider
+      .slider-card
+        h3
+          position: absolute
+          top: 80px
+          left: 50px
+          color: white
+          width: 200px
+          font-size: 12px
+
+        p
+          position: absolute
+          top: 120px
+          left: 50px
+          color: $color-anchor-hover
+          width: 270px
+          font-size: 10px
+
+        .btn-custom
+          position: absolute
+          top: 160px
+          left: 50px
+          font-size: 10px !important
+
+        .mitra
+          position: absolute
+          top: 200px
+          left: 50px
+
+          img
+            height: 32px
+            top: -10px
+            left: 270px
+            position: absolute
+
+    .img-fluid
+      border-radius: 20px
+      margin: 20px 0px
+      height: 250px
+      transition: .5s
+
+    .card-home
+
+      form
+        .card-input-home
+          margin-left: auto
+          margin-right: auto
+          position: static
+          img
+            height: 44px
+            margin-left: 30px
+        p
+          margin-left: 0px
+
+    .dataPengalaman
+      color: #ffffff
+      font-size: 16px
+      h4
+        font-size: 20px
+      img
+        height: 40px
+
+      .pengguna
+        font-size: 30px
+
+    .dataPengajuanTanpaSurvey
+      color: #ffffff
+      margin-top: 40px
+      .jumbotron
+        overflow: hidden
+        margin-top: -40px
+        background: $color-primary
+        h4
+          font-size: 20px
+        .btn-custom
+          color: $color-anchor-hover
+          background: $color-primary
+          border: 1px solid $color-anchor-hover
+
+        .btn-custom:hover
+          color: $color-primary
+          background: $color-anchor-hover
+          border: 1px solid $color-primary
+
+    .dataPengajuanRules
+      margin-top: -40px
+      .jumbotron
+        background: $color-anchor-hover
+        h4
+          font-size: 20px
+        .card-rules
+          background: #DCDBDA
+          padding: 20px
+          border-radius: 20px
+          margin: 10px 0px
+          box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.2)
+          min-height: 100px
+
+          .rulesImage
+          .rulesTitle
+            font-size: 14px
+            font-weight: 600
+
+          .rulesDesc
+            font-size: 12px
+
+          img
+            height: 64px
+            margin-bottom: 20px
+
+        .btn-custom
+          background: #707070
+          color: $color-anchor-hover
+
+        .btn-custom:hover
+          background: $color-anchor-hover
+          color: #707070
+          border: 1px solid #707070
+
+    .testimoni
+      .card-testimoni
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2)
+        padding: 10px
+        border-radius: 10px
+        p
+          font-size: 16px
+        .profile-testimoni
+          img
+            height: 64px
+            width: 64px
+            margin: 0px auto 10px
+
+          .profile-testimoni-name
+            font-size: 16px
+
+          .profile-testimoni-usaha
+            font-size: 10px
+
+          .profile-testimoni-alamat
+            font-size: 10px
+            font-style: italic
+
+        .testimonial
+          font-size: 12px
+
+    .title-faq
+      font-weight: 600
+    #accordion
+      .card
+        border: none
+
+        .card-header
+          border: none
+          background: none
+          padding-bottom: 0px
+
+          h5
+            .btn
+              padding-bottom: 0px
+              font-size: 12px
+            button
+              color: black !important
+              font-weight: 600
+              border-bottom: 1px solid rgba(0, 0, 0, 0.3)
+              width: 100%
+              text-align: left
+              padding-left: 20px
+
+              i
+                transform: rotate(-90deg)
+                transition: 1s
+                margin: 0 20px 0 -20px
+
+            .collapsed
+              i
+                transform: rotate(0deg)
+                transition: .5s
+
+            .btn-link
+              text-decoration: none
+
+            button:hover
+              text-decoration: none
+
+        .card-body
+          font-size: 10px !important
+          padding: 5px 0px 0px 30px
+
+    .card-sale
+      margin-top: 50px
+      background: $color-anchor-hover
+      padding: 20px
+      color: $color-primary
+      border-radius: 30px
+      img
+        height: 200px
+
+      .promo-title
+        font-size: 24px
+        color: $font-primary !important
+      .promo-tawaran
+        font-size: 14px
+        color: $font-primary !important
+      .btn-custom
+        margin: 10px 0px
+        width: 100%
+        background: $color-primary
+        color: $color-anchor-hover
+      .promo-tawaran-syarat
+        font-size: 12px
+
+    .pengawas
+      img
+        height: 64px
 
   footer
     .logo
@@ -315,6 +907,222 @@ footer
 
       .display-4
         font-size: 25px
+
+  main
+    .slider
+      .slider-card
+        h3
+          position: absolute
+          top: 60px
+          left: 50px
+          color: white
+          width: 200px
+          font-size: 10px
+
+        p
+          position: absolute
+          top: 100px
+          left: 50px
+          color: $color-anchor-hover
+          width: 270px
+          font-size: 8px
+
+        .btn-custom
+          position: absolute
+          top: 140px
+          left: 50px
+          font-size: 8px !important
+
+        .mitra
+          position: absolute
+          top: 180px
+          left: 50px
+
+          img
+            height: 32px
+            top: -10px
+            left: 210px
+            position: absolute
+
+    .img-fluid
+      border-radius: 20px
+      margin: 20px 0px
+      height: 200px
+      transition: .5s
+
+    .card-home
+
+      form
+        .card-input-home
+          margin-left: auto
+          margin-right: auto
+          position: static
+          img
+            height: 44px
+            margin-left: 30px
+        p
+          margin-left: 0px
+
+    .dataPengalaman
+      color: #ffffff
+      font-size: 16px
+      h4
+        font-size: 20px
+      img
+        height: 40px
+
+      .pengguna
+        font-size: 30px
+
+    .dataPengajuanTanpaSurvey
+      color: #ffffff
+      margin-top: 40px
+      .jumbotron
+        overflow: hidden
+        margin-top: -40px
+        background: $color-primary
+        h4
+          font-size: 20px
+        .btn-custom
+          color: $color-anchor-hover
+          background: $color-primary
+          border: 1px solid $color-anchor-hover
+
+        .btn-custom:hover
+          color: $color-primary
+          background: $color-anchor-hover
+          border: 1px solid $color-primary
+
+    .dataPengajuanRules
+      margin-top: -40px
+      .jumbotron
+        background: $color-anchor-hover
+        h4
+          font-size: 20px
+        .card-rules
+          background: #DCDBDA
+          padding: 20px
+          border-radius: 20px
+          margin: 10px 0px
+          box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.2)
+          min-height: 100px
+
+          .rulesImage
+          .rulesTitle
+            font-size: 14px
+            font-weight: 600
+
+          .rulesDesc
+            font-size: 12px
+
+          img
+            height: 64px
+            margin-bottom: 20px
+
+        .btn-custom
+          background: #707070
+          color: $color-anchor-hover
+
+        .btn-custom:hover
+          background: $color-anchor-hover
+          color: #707070
+          border: 1px solid #707070
+
+    .testimoni
+      .card-testimoni
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2)
+        padding: 10px
+        border-radius: 10px
+        p
+          font-size: 16px
+        .profile-testimoni
+          img
+            height: 64px
+            width: 64px
+            margin: 0px auto 10px
+
+          .profile-testimoni-name
+            font-size: 16px
+
+          .profile-testimoni-usaha
+            font-size: 10px
+
+          .profile-testimoni-alamat
+            font-size: 10px
+            font-style: italic
+
+        .testimonial
+          font-size: 12px
+
+    .title-faq
+      font-weight: 600
+    #accordion
+      .card
+        border: none
+
+        .card-header
+          border: none
+          background: none
+          padding-bottom: 0px
+
+          h5
+            .btn
+              padding-bottom: 0px
+              font-size: 12px
+            button
+              color: black !important
+              font-weight: 600
+              border-bottom: 1px solid rgba(0, 0, 0, 0.3)
+              width: 100%
+              text-align: left
+              padding-left: 20px
+
+              i
+                transform: rotate(-90deg)
+                transition: 1s
+                margin: 0 20px 0 -20px
+
+            .collapsed
+              i
+                transform: rotate(0deg)
+                transition: .5s
+
+            .btn-link
+              text-decoration: none
+
+            button:hover
+              text-decoration: none
+
+        .card-body
+          font-size: 10px !important
+          padding: 5px 0px 0px 30px
+
+    .card-sale
+      margin-top: 50px
+      background: $color-anchor-hover
+      padding: 20px
+      color: $color-primary
+      border-radius: 30px
+      img
+        height: 200px
+
+      .promo-title
+        font-size: 24px
+        color: $font-primary !important
+      .promo-tawaran
+        font-size: 14px
+        color: $font-primary !important
+      .btn-custom
+        margin: 10px 0px
+        width: 100%
+        background: $color-primary
+        color: $color-anchor-hover
+      .promo-tawaran-syarat
+        font-size: 12px
+
+    .pengawas
+      img
+        height: 64px
 
   main
     #accordion
@@ -372,6 +1180,242 @@ footer
 
       .display-4
         font-size: 25px
+
+  main
+    margin-top: 120px
+    margin-bottom: 100px
+    .slider
+      .slider-card
+        position: relative
+        h3
+          position: absolute
+          top: 100px
+          left: 70px
+          color: white
+          width: 270px
+          font-size: 18px
+
+        p
+          position: absolute
+          top: 150px
+          left: 70px
+          color: $color-anchor-hover
+          width: 270px
+          font-size: 10px
+
+        .btn-custom
+          position: absolute
+          top: 200px
+          left: 70px
+          font-size: 14px !important
+
+        .mitra
+          position: absolute
+          top: 320px
+          left: 70px
+
+          img
+            height: 32px
+            top: -10px
+            left: 270px
+            position: absolute
+
+    .img-fluid
+      border-radius: 20px
+      margin: 20px 0px
+      height: 400px
+      transition: .5s
+
+    .leasing-partner
+      .img-fluid
+        height: 64px
+    .card-home
+      padding: 50px
+      background: $color-primary
+      border-radius: 20px
+      color: #ffffff
+      form
+        .card-input-home
+          color: black
+          background: white
+          width: 100px
+          justify-content: end
+          position: relative
+          right: -20px
+
+          img
+            height: 64px
+            margin-left: 20px
+
+        p
+          text-align: center
+          margin-left: 50px
+          font-size: 14px
+
+    ul
+      list-style: none
+
+    .btn-custom
+      background: #F5B51F
+      box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2)
+
+    .btn-custom:hover
+      background: #cc971d
+
+    .dataPengalaman
+      color: #ffffff
+      .jumbotron
+        background-image: url('../../image/background.jpg')
+      img
+        height: 64px
+
+      .pengguna
+        font-size: 44px
+
+    .dataPengajuanTanpaSurvey
+      color: #ffffff
+      margin-top: 40px
+      .jumbotron
+        overflow: hidden
+        margin-top: -40px
+        background: $color-primary
+        .btn-custom
+          color: $color-anchor-hover
+          background: $color-primary
+          border: 1px solid $color-anchor-hover
+
+        .btn-custom:hover
+          color: $color-primary
+          background: $color-anchor-hover
+          border: 1px solid $color-primary
+
+    .dataPengajuanRules
+      margin-top: -40px
+      .jumbotron
+        background: $color-anchor-hover
+        .card-rules
+          background: #DCDBDA
+          padding: 20px
+          border-radius: 20px
+          box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.2)
+          min-height: 200px
+
+          .rulesImage
+          .rulesTitle
+            font-size: 14px
+            font-weight: 600
+
+          .rulesDesc
+            font-size: 12px
+
+          img
+            height: 64px
+            margin-bottom: 20px
+
+        .btn-custom
+          background: #707070
+          color: $color-anchor-hover
+
+        .btn-custom:hover
+          background: $color-anchor-hover
+          color: #707070
+          border: 1px solid #707070
+
+    .testimoni
+      .card-testimoni
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2)
+        padding: 10px
+        border-radius: 10px
+        p
+          font-size: 16px
+        .profile-testimoni
+          img
+            height: 64px
+            width: 64px
+            margin: 0px auto 10px
+
+          .profile-testimoni-name
+            font-size: 16px
+
+          .profile-testimoni-usaha
+            font-size: 10px
+
+          .profile-testimoni-alamat
+            font-size: 10px
+            font-style: italic
+
+        .testimonial
+          font-size: 12px
+
+    .title-faq
+      font-weight: 600
+    #accordion
+      .card
+        border: none
+
+        .card-header
+          border: none
+          background: none
+          padding-bottom: 0px
+
+          h5
+            .btn
+              padding-bottom: 0px
+            button
+              color: black !important
+              font-weight: 600
+              border-bottom: 1px solid rgba(0, 0, 0, 0.3)
+              width: 100%
+              text-align: left
+              padding-left: 20px
+
+              i
+                transform: rotate(-90deg)
+                transition: 1s
+                margin: 0 20px 0 -20px
+
+            .collapsed
+              i
+                transform: rotate(0deg)
+                transition: .5s
+
+            .btn-link
+              text-decoration: none
+
+            button:hover
+              text-decoration: none
+
+        .card-body
+          font-size: 12px
+          padding: 5px 0px 0px 30px
+
+    .card-sale
+      margin-top: 50px
+      background: $color-anchor-hover
+      padding: 20px
+      color: $color-primary
+      border-radius: 30px
+      img
+        height: 200px
+
+      .promo-title
+        font-size: 24px
+        color: $font-primary !important
+      .promo-tawaran
+        font-size: 14px
+        color: $font-primary !important
+      .btn-custom
+        margin: 10px 0px
+        width: 100%
+        background: $color-primary
+        color: $color-anchor-hover
+      .promo-tawaran-syarat
+        font-size: 12px
+
+    .pengawas
+      img
+        height: 64px
+
   footer
     .logo
       font-size: 20px

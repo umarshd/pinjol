@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -89,6 +90,48 @@ main {
   margin-bottom: 100px;
 }
 
+main .slider .slider-card {
+  position: relative;
+}
+
+main .slider .slider-card h3 {
+  position: absolute;
+  top: 100px;
+  left: 70px;
+  color: white;
+  width: 270px;
+  font-size: 18px;
+}
+
+main .slider .slider-card p {
+  position: absolute;
+  top: 150px;
+  left: 70px;
+  color: #F5B51F;
+  width: 270px;
+  font-size: 10px;
+}
+
+main .slider .slider-card .btn-custom {
+  position: absolute;
+  top: 200px;
+  left: 70px;
+  font-size: 14px !important;
+}
+
+main .slider .slider-card .mitra {
+  position: absolute;
+  top: 320px;
+  left: 70px;
+}
+
+main .slider .slider-card .mitra img {
+  height: 32px;
+  top: -10px;
+  left: 270px;
+  position: absolute;
+}
+
 main .img-fluid {
   border-radius: 20px;
   margin: 20px 0px;
@@ -103,41 +146,31 @@ main .leasing-partner .img-fluid {
 
 main .card-home {
   padding: 50px;
-  background: #012756 !important;
+  background: #012756;
+  border-radius: 20px;
   color: #ffffff;
 }
 
-main .card-home form {
-  padding: 0px 30px;
+main .card-home form .card-input-home {
+  color: black;
+  background: white;
+  width: 100px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  position: relative;
+  right: -50px;
 }
 
-main .card-home form .card-jaminan {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+main .card-home form .card-input-home img {
+  height: 64px;
+  margin-left: 20px;
 }
 
-main .card-home form .card-jaminan .pilihJaminan {
-  text-align: start !important;
-}
-
-main .card-home form .card-jaminan .jaminan-foto {
-  display: block;
-}
-
-main .card-home form .card-jaminan .jaminan-foto img {
-  margin-top: 10px;
-  border-radius: none;
-  height: 84px;
-  width: 84px;
-  padding: 10px;
-  margin-right: 10px;
+main .card-home form p {
+  text-align: center;
+  margin-left: 50px;
+  font-size: 14px;
 }
 
 main ul {
@@ -154,23 +187,29 @@ main .btn-custom:hover {
   background: #cc971d;
 }
 
-main .dataPengajuan {
+main .dataPengalaman {
   color: #ffffff;
 }
 
-main .dataPengajuan .jumbotron {
+main .dataPengalaman .jumbotron {
   background-image: url("../../image/background.jpg");
 }
 
-main .dataPengajuan .jumlah-data {
-  font-size: 64px;
+main .dataPengalaman img {
+  height: 64px;
+}
+
+main .dataPengalaman .pengguna {
+  font-size: 44px;
 }
 
 main .dataPengajuanTanpaSurvey {
   color: #ffffff;
+  margin-top: 40px;
 }
 
 main .dataPengajuanTanpaSurvey .jumbotron {
+  overflow: hidden;
   margin-top: -40px;
   background: #012756;
 }
@@ -185,6 +224,174 @@ main .dataPengajuanTanpaSurvey .jumbotron .btn-custom:hover {
   color: #012756;
   background: #F5B51F;
   border: 1px solid #012756;
+}
+
+main .dataPengajuanRules {
+  margin-top: -40px;
+}
+
+main .dataPengajuanRules .jumbotron {
+  background: #F5B51F;
+}
+
+main .dataPengajuanRules .jumbotron .card-rules {
+  background: #DCDBDA;
+  padding: 20px;
+  border-radius: 20px;
+  -webkit-box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.2);
+          box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.2);
+  min-height: 200px;
+}
+
+main .dataPengajuanRules .jumbotron .card-rules .rulesTitle {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+main .dataPengajuanRules .jumbotron .card-rules .rulesDesc {
+  font-size: 12px;
+}
+
+main .dataPengajuanRules .jumbotron .card-rules img {
+  height: 64px;
+  margin-bottom: 20px;
+}
+
+main .dataPengajuanRules .jumbotron .btn-custom {
+  background: #707070;
+  color: #F5B51F;
+}
+
+main .dataPengajuanRules .jumbotron .btn-custom:hover {
+  background: #F5B51F;
+  color: #707070;
+  border: 1px solid #707070;
+}
+
+main .testimoni .card-testimoni {
+  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+main .testimoni .card-testimoni p {
+  font-size: 16px;
+}
+
+main .testimoni .card-testimoni .profile-testimoni img {
+  height: 64px;
+  width: 64px;
+  margin: 0px auto 10px;
+}
+
+main .testimoni .card-testimoni .profile-testimoni .profile-testimoni-name {
+  font-size: 16px;
+}
+
+main .testimoni .card-testimoni .profile-testimoni .profile-testimoni-usaha {
+  font-size: 10px;
+}
+
+main .testimoni .card-testimoni .profile-testimoni .profile-testimoni-alamat {
+  font-size: 10px;
+  font-style: italic;
+}
+
+main .testimoni .card-testimoni .testimonial {
+  font-size: 12px;
+}
+
+main .title-faq {
+  font-weight: 600;
+}
+
+main #accordion .card {
+  border: none;
+}
+
+main #accordion .card .card-header {
+  border: none;
+  background: none;
+  padding-bottom: 0px;
+}
+
+main #accordion .card .card-header h5 .btn {
+  padding-bottom: 0px;
+}
+
+main #accordion .card .card-header h5 button {
+  color: black !important;
+  font-weight: 600;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  width: 100%;
+  text-align: left;
+  padding-left: 20px;
+}
+
+main #accordion .card .card-header h5 button i {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  -webkit-transition: 1s;
+  transition: 1s;
+  margin: 0 20px 0 -20px;
+}
+
+main #accordion .card .card-header h5 .collapsed i {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+main #accordion .card .card-header h5 .btn-link {
+  text-decoration: none;
+}
+
+main #accordion .card .card-header h5 button:hover {
+  text-decoration: none;
+}
+
+main #accordion .card .card-body {
+  font-size: 12px;
+  padding: 5px 0px 0px 30px;
+}
+
+main .card-sale {
+  margin-top: 50px;
+  background: #F5B51F;
+  padding: 20px;
+  color: #012756;
+  border-radius: 30px;
+}
+
+main .card-sale img {
+  height: 200px;
+}
+
+main .card-sale .promo-title {
+  font-size: 24px;
+  color: "Poppins", sans-serif !important;
+}
+
+main .card-sale .promo-tawaran {
+  font-size: 14px;
+  color: "Poppins", sans-serif !important;
+}
+
+main .card-sale .btn-custom {
+  margin: 10px 0px;
+  width: 100%;
+  background: #012756;
+  color: #F5B51F;
+}
+
+main .card-sale .promo-tawaran-syarat {
+  font-size: 12px;
+}
+
+main .pengawas img {
+  height: 64px;
 }
 
 footer {
@@ -256,6 +463,241 @@ footer .copyright {
   header .jumbotron .display-4 {
     font-size: 25px;
   }
+  main {
+    margin-top: 120px;
+    margin-bottom: 100px;
+  }
+  main .slider .slider-card {
+    position: relative;
+  }
+  main .slider .slider-card h3 {
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    color: white;
+    width: 200px;
+    font-size: 12px;
+  }
+  main .slider .slider-card p {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    color: #F5B51F;
+    width: 270px;
+    font-size: 10px;
+  }
+  main .slider .slider-card .btn-custom {
+    position: absolute;
+    top: 140px;
+    left: 50px;
+    font-size: 10px !important;
+  }
+  main .slider .slider-card .mitra {
+    position: absolute;
+    top: 180px;
+    left: 50px;
+  }
+  main .slider .slider-card .mitra img {
+    height: 32px;
+    top: -10px;
+    left: 270px;
+    position: absolute;
+  }
+  main .img-fluid {
+    border-radius: 20px;
+    margin: 20px 0px;
+    height: 200px;
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+  main .card-home form .card-input-home {
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+  }
+  main .card-home form .card-input-home img {
+    height: 44px;
+    margin-left: 30px;
+  }
+  main .card-home form p {
+    margin-left: 0px;
+  }
+  main .dataPengalaman {
+    color: #ffffff;
+    font-size: 16px;
+  }
+  main .dataPengalaman h4 {
+    font-size: 20px;
+  }
+  main .dataPengalaman img {
+    height: 44px;
+  }
+  main .dataPengalaman .pengguna {
+    font-size: 32px;
+  }
+  main .dataPengajuanTanpaSurvey {
+    color: #ffffff;
+    margin-top: 40px;
+  }
+  main .dataPengajuanTanpaSurvey .jumbotron {
+    overflow: hidden;
+    margin-top: -40px;
+    background: #012756;
+  }
+  main .dataPengajuanTanpaSurvey .jumbotron h4 {
+    font-size: 20px;
+  }
+  main .dataPengajuanTanpaSurvey .jumbotron .btn-custom {
+    color: #F5B51F;
+    background: #012756;
+    border: 1px solid #F5B51F;
+  }
+  main .dataPengajuanTanpaSurvey .jumbotron .btn-custom:hover {
+    color: #012756;
+    background: #F5B51F;
+    border: 1px solid #012756;
+  }
+  main .dataPengajuanRules {
+    margin-top: -40px;
+  }
+  main .dataPengajuanRules .jumbotron {
+    background: #F5B51F;
+  }
+  main .dataPengajuanRules .jumbotron h4 {
+    font-size: 20px;
+  }
+  main .dataPengajuanRules .jumbotron .card-rules {
+    background: #DCDBDA;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px 0px;
+    -webkit-box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.2);
+            box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.2);
+    min-height: 100px;
+  }
+  main .dataPengajuanRules .jumbotron .card-rules .rulesTitle {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  main .dataPengajuanRules .jumbotron .card-rules .rulesDesc {
+    font-size: 12px;
+  }
+  main .dataPengajuanRules .jumbotron .card-rules img {
+    height: 64px;
+    margin-bottom: 20px;
+  }
+  main .dataPengajuanRules .jumbotron .btn-custom {
+    background: #707070;
+    color: #F5B51F;
+  }
+  main .dataPengajuanRules .jumbotron .btn-custom:hover {
+    background: #F5B51F;
+    color: #707070;
+    border: 1px solid #707070;
+  }
+  main .testimoni .card-testimoni {
+    -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  main .testimoni .card-testimoni p {
+    font-size: 16px;
+  }
+  main .testimoni .card-testimoni .profile-testimoni img {
+    height: 64px;
+    width: 64px;
+    margin: 0px auto 10px;
+  }
+  main .testimoni .card-testimoni .profile-testimoni .profile-testimoni-name {
+    font-size: 16px;
+  }
+  main .testimoni .card-testimoni .profile-testimoni .profile-testimoni-usaha {
+    font-size: 10px;
+  }
+  main .testimoni .card-testimoni .profile-testimoni .profile-testimoni-alamat {
+    font-size: 10px;
+    font-style: italic;
+  }
+  main .testimoni .card-testimoni .testimonial {
+    font-size: 12px;
+  }
+  main .title-faq {
+    font-weight: 600;
+  }
+  main #accordion .card {
+    border: none;
+  }
+  main #accordion .card .card-header {
+    border: none;
+    background: none;
+    padding-bottom: 0px;
+  }
+  main #accordion .card .card-header h5 .btn {
+    padding-bottom: 0px;
+    font-size: 12px;
+  }
+  main #accordion .card .card-header h5 button {
+    color: black !important;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+  }
+  main #accordion .card .card-header h5 button i {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+    -webkit-transition: 1s;
+    transition: 1s;
+    margin: 0 20px 0 -20px;
+  }
+  main #accordion .card .card-header h5 .collapsed i {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+  main #accordion .card .card-header h5 .btn-link {
+    text-decoration: none;
+  }
+  main #accordion .card .card-header h5 button:hover {
+    text-decoration: none;
+  }
+  main #accordion .card .card-body {
+    font-size: 10px !important;
+    padding: 5px 0px 0px 30px;
+  }
+  main .card-sale {
+    margin-top: 50px;
+    background: #F5B51F;
+    padding: 20px;
+    color: #012756;
+    border-radius: 30px;
+  }
+  main .card-sale img {
+    height: 200px;
+  }
+  main .card-sale .promo-title {
+    font-size: 24px;
+    color: "Poppins", sans-serif !important;
+  }
+  main .card-sale .promo-tawaran {
+    font-size: 14px;
+    color: "Poppins", sans-serif !important;
+  }
+  main .card-sale .btn-custom {
+    margin: 10px 0px;
+    width: 100%;
+    background: #012756;
+    color: #F5B51F;
+  }
+  main .card-sale .promo-tawaran-syarat {
+    font-size: 12px;
+  }
+  main .pengawas img {
+    height: 64px;
+  }
   footer .logo {
     font-size: 20px;
     margin-top: 20px;
@@ -315,6 +757,234 @@ footer .copyright {
   main #accordion .card-header .card-body {
     font-size: 12px !important;
   }
+  main .slider .slider-card h3 {
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    color: white;
+    width: 200px;
+    font-size: 12px;
+  }
+  main .slider .slider-card p {
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    color: #F5B51F;
+    width: 270px;
+    font-size: 10px;
+  }
+  main .slider .slider-card .btn-custom {
+    position: absolute;
+    top: 160px;
+    left: 50px;
+    font-size: 10px !important;
+  }
+  main .slider .slider-card .mitra {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+  }
+  main .slider .slider-card .mitra img {
+    height: 32px;
+    top: -10px;
+    left: 270px;
+    position: absolute;
+  }
+  main .img-fluid {
+    border-radius: 20px;
+    margin: 20px 0px;
+    height: 250px;
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+  main .card-home form .card-input-home {
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+  }
+  main .card-home form .card-input-home img {
+    height: 44px;
+    margin-left: 30px;
+  }
+  main .card-home form p {
+    margin-left: 0px;
+  }
+  main .dataPengalaman {
+    color: #ffffff;
+    font-size: 16px;
+  }
+  main .dataPengalaman h4 {
+    font-size: 20px;
+  }
+  main .dataPengalaman img {
+    height: 40px;
+  }
+  main .dataPengalaman .pengguna {
+    font-size: 30px;
+  }
+  main .dataPengajuanTanpaSurvey {
+    color: #ffffff;
+    margin-top: 40px;
+  }
+  main .dataPengajuanTanpaSurvey .jumbotron {
+    overflow: hidden;
+    margin-top: -40px;
+    background: #012756;
+  }
+  main .dataPengajuanTanpaSurvey .jumbotron h4 {
+    font-size: 20px;
+  }
+  main .dataPengajuanTanpaSurvey .jumbotron .btn-custom {
+    color: #F5B51F;
+    background: #012756;
+    border: 1px solid #F5B51F;
+  }
+  main .dataPengajuanTanpaSurvey .jumbotron .btn-custom:hover {
+    color: #012756;
+    background: #F5B51F;
+    border: 1px solid #012756;
+  }
+  main .dataPengajuanRules {
+    margin-top: -40px;
+  }
+  main .dataPengajuanRules .jumbotron {
+    background: #F5B51F;
+  }
+  main .dataPengajuanRules .jumbotron h4 {
+    font-size: 20px;
+  }
+  main .dataPengajuanRules .jumbotron .card-rules {
+    background: #DCDBDA;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px 0px;
+    -webkit-box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.2);
+            box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.2);
+    min-height: 100px;
+  }
+  main .dataPengajuanRules .jumbotron .card-rules .rulesTitle {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  main .dataPengajuanRules .jumbotron .card-rules .rulesDesc {
+    font-size: 12px;
+  }
+  main .dataPengajuanRules .jumbotron .card-rules img {
+    height: 64px;
+    margin-bottom: 20px;
+  }
+  main .dataPengajuanRules .jumbotron .btn-custom {
+    background: #707070;
+    color: #F5B51F;
+  }
+  main .dataPengajuanRules .jumbotron .btn-custom:hover {
+    background: #F5B51F;
+    color: #707070;
+    border: 1px solid #707070;
+  }
+  main .testimoni .card-testimoni {
+    -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  main .testimoni .card-testimoni p {
+    font-size: 16px;
+  }
+  main .testimoni .card-testimoni .profile-testimoni img {
+    height: 64px;
+    width: 64px;
+    margin: 0px auto 10px;
+  }
+  main .testimoni .card-testimoni .profile-testimoni .profile-testimoni-name {
+    font-size: 16px;
+  }
+  main .testimoni .card-testimoni .profile-testimoni .profile-testimoni-usaha {
+    font-size: 10px;
+  }
+  main .testimoni .card-testimoni .profile-testimoni .profile-testimoni-alamat {
+    font-size: 10px;
+    font-style: italic;
+  }
+  main .testimoni .card-testimoni .testimonial {
+    font-size: 12px;
+  }
+  main .title-faq {
+    font-weight: 600;
+  }
+  main #accordion .card {
+    border: none;
+  }
+  main #accordion .card .card-header {
+    border: none;
+    background: none;
+    padding-bottom: 0px;
+  }
+  main #accordion .card .card-header h5 .btn {
+    padding-bottom: 0px;
+    font-size: 12px;
+  }
+  main #accordion .card .card-header h5 button {
+    color: black !important;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+  }
+  main #accordion .card .card-header h5 button i {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+    -webkit-transition: 1s;
+    transition: 1s;
+    margin: 0 20px 0 -20px;
+  }
+  main #accordion .card .card-header h5 .collapsed i {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+  main #accordion .card .card-header h5 .btn-link {
+    text-decoration: none;
+  }
+  main #accordion .card .card-header h5 button:hover {
+    text-decoration: none;
+  }
+  main #accordion .card .card-body {
+    font-size: 10px !important;
+    padding: 5px 0px 0px 30px;
+  }
+  main .card-sale {
+    margin-top: 50px;
+    background: #F5B51F;
+    padding: 20px;
+    color: #012756;
+    border-radius: 30px;
+  }
+  main .card-sale img {
+    height: 200px;
+  }
+  main .card-sale .promo-title {
+    font-size: 24px;
+    color: "Poppins", sans-serif !important;
+  }
+  main .card-sale .promo-tawaran {
+    font-size: 14px;
+    color: "Poppins", sans-serif !important;
+  }
+  main .card-sale .btn-custom {
+    margin: 10px 0px;
+    width: 100%;
+    background: #012756;
+    color: #F5B51F;
+  }
+  main .card-sale .promo-tawaran-syarat {
+    font-size: 12px;
+  }
+  main .pengawas img {
+    height: 64px;
+  }
   footer .logo {
     font-size: 20px;
     margin-top: 20px;
@@ -367,6 +1037,234 @@ footer .copyright {
   }
   header .jumbotron .display-4 {
     font-size: 25px;
+  }
+  main .slider .slider-card h3 {
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    color: white;
+    width: 200px;
+    font-size: 10px;
+  }
+  main .slider .slider-card p {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    color: #F5B51F;
+    width: 270px;
+    font-size: 8px;
+  }
+  main .slider .slider-card .btn-custom {
+    position: absolute;
+    top: 140px;
+    left: 50px;
+    font-size: 8px !important;
+  }
+  main .slider .slider-card .mitra {
+    position: absolute;
+    top: 180px;
+    left: 50px;
+  }
+  main .slider .slider-card .mitra img {
+    height: 32px;
+    top: -10px;
+    left: 210px;
+    position: absolute;
+  }
+  main .img-fluid {
+    border-radius: 20px;
+    margin: 20px 0px;
+    height: 200px;
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+  main .card-home form .card-input-home {
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+  }
+  main .card-home form .card-input-home img {
+    height: 44px;
+    margin-left: 30px;
+  }
+  main .card-home form p {
+    margin-left: 0px;
+  }
+  main .dataPengalaman {
+    color: #ffffff;
+    font-size: 16px;
+  }
+  main .dataPengalaman h4 {
+    font-size: 20px;
+  }
+  main .dataPengalaman img {
+    height: 40px;
+  }
+  main .dataPengalaman .pengguna {
+    font-size: 30px;
+  }
+  main .dataPengajuanTanpaSurvey {
+    color: #ffffff;
+    margin-top: 40px;
+  }
+  main .dataPengajuanTanpaSurvey .jumbotron {
+    overflow: hidden;
+    margin-top: -40px;
+    background: #012756;
+  }
+  main .dataPengajuanTanpaSurvey .jumbotron h4 {
+    font-size: 20px;
+  }
+  main .dataPengajuanTanpaSurvey .jumbotron .btn-custom {
+    color: #F5B51F;
+    background: #012756;
+    border: 1px solid #F5B51F;
+  }
+  main .dataPengajuanTanpaSurvey .jumbotron .btn-custom:hover {
+    color: #012756;
+    background: #F5B51F;
+    border: 1px solid #012756;
+  }
+  main .dataPengajuanRules {
+    margin-top: -40px;
+  }
+  main .dataPengajuanRules .jumbotron {
+    background: #F5B51F;
+  }
+  main .dataPengajuanRules .jumbotron h4 {
+    font-size: 20px;
+  }
+  main .dataPengajuanRules .jumbotron .card-rules {
+    background: #DCDBDA;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px 0px;
+    -webkit-box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.2);
+            box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.2);
+    min-height: 100px;
+  }
+  main .dataPengajuanRules .jumbotron .card-rules .rulesTitle {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  main .dataPengajuanRules .jumbotron .card-rules .rulesDesc {
+    font-size: 12px;
+  }
+  main .dataPengajuanRules .jumbotron .card-rules img {
+    height: 64px;
+    margin-bottom: 20px;
+  }
+  main .dataPengajuanRules .jumbotron .btn-custom {
+    background: #707070;
+    color: #F5B51F;
+  }
+  main .dataPengajuanRules .jumbotron .btn-custom:hover {
+    background: #F5B51F;
+    color: #707070;
+    border: 1px solid #707070;
+  }
+  main .testimoni .card-testimoni {
+    -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  main .testimoni .card-testimoni p {
+    font-size: 16px;
+  }
+  main .testimoni .card-testimoni .profile-testimoni img {
+    height: 64px;
+    width: 64px;
+    margin: 0px auto 10px;
+  }
+  main .testimoni .card-testimoni .profile-testimoni .profile-testimoni-name {
+    font-size: 16px;
+  }
+  main .testimoni .card-testimoni .profile-testimoni .profile-testimoni-usaha {
+    font-size: 10px;
+  }
+  main .testimoni .card-testimoni .profile-testimoni .profile-testimoni-alamat {
+    font-size: 10px;
+    font-style: italic;
+  }
+  main .testimoni .card-testimoni .testimonial {
+    font-size: 12px;
+  }
+  main .title-faq {
+    font-weight: 600;
+  }
+  main #accordion .card {
+    border: none;
+  }
+  main #accordion .card .card-header {
+    border: none;
+    background: none;
+    padding-bottom: 0px;
+  }
+  main #accordion .card .card-header h5 .btn {
+    padding-bottom: 0px;
+    font-size: 12px;
+  }
+  main #accordion .card .card-header h5 button {
+    color: black !important;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+  }
+  main #accordion .card .card-header h5 button i {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+    -webkit-transition: 1s;
+    transition: 1s;
+    margin: 0 20px 0 -20px;
+  }
+  main #accordion .card .card-header h5 .collapsed i {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+  main #accordion .card .card-header h5 .btn-link {
+    text-decoration: none;
+  }
+  main #accordion .card .card-header h5 button:hover {
+    text-decoration: none;
+  }
+  main #accordion .card .card-body {
+    font-size: 10px !important;
+    padding: 5px 0px 0px 30px;
+  }
+  main .card-sale {
+    margin-top: 50px;
+    background: #F5B51F;
+    padding: 20px;
+    color: #012756;
+    border-radius: 30px;
+  }
+  main .card-sale img {
+    height: 200px;
+  }
+  main .card-sale .promo-title {
+    font-size: 24px;
+    color: "Poppins", sans-serif !important;
+  }
+  main .card-sale .promo-tawaran {
+    font-size: 14px;
+    color: "Poppins", sans-serif !important;
+  }
+  main .card-sale .btn-custom {
+    margin: 10px 0px;
+    width: 100%;
+    background: #012756;
+    color: #F5B51F;
+  }
+  main .card-sale .promo-tawaran-syarat {
+    font-size: 12px;
+  }
+  main .pengawas img {
+    height: 64px;
   }
   main #accordion .card-header h5 .btn {
     font-size: 16px !important;
@@ -424,6 +1322,259 @@ footer .copyright {
   }
   header .jumbotron .display-4 {
     font-size: 25px;
+  }
+  main {
+    margin-top: 120px;
+    margin-bottom: 100px;
+  }
+  main .slider .slider-card {
+    position: relative;
+  }
+  main .slider .slider-card h3 {
+    position: absolute;
+    top: 100px;
+    left: 70px;
+    color: white;
+    width: 270px;
+    font-size: 18px;
+  }
+  main .slider .slider-card p {
+    position: absolute;
+    top: 150px;
+    left: 70px;
+    color: #F5B51F;
+    width: 270px;
+    font-size: 10px;
+  }
+  main .slider .slider-card .btn-custom {
+    position: absolute;
+    top: 200px;
+    left: 70px;
+    font-size: 14px !important;
+  }
+  main .slider .slider-card .mitra {
+    position: absolute;
+    top: 320px;
+    left: 70px;
+  }
+  main .slider .slider-card .mitra img {
+    height: 32px;
+    top: -10px;
+    left: 270px;
+    position: absolute;
+  }
+  main .img-fluid {
+    border-radius: 20px;
+    margin: 20px 0px;
+    height: 400px;
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+  main .leasing-partner .img-fluid {
+    height: 64px;
+  }
+  main .card-home {
+    padding: 50px;
+    background: #012756;
+    border-radius: 20px;
+    color: #ffffff;
+  }
+  main .card-home form .card-input-home {
+    color: black;
+    background: white;
+    width: 100px;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    position: relative;
+    right: -20px;
+  }
+  main .card-home form .card-input-home img {
+    height: 64px;
+    margin-left: 20px;
+  }
+  main .card-home form p {
+    text-align: center;
+    margin-left: 50px;
+    font-size: 14px;
+  }
+  main ul {
+    list-style: none;
+  }
+  main .btn-custom {
+    background: #F5B51F;
+    -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+  }
+  main .btn-custom:hover {
+    background: #cc971d;
+  }
+  main .dataPengalaman {
+    color: #ffffff;
+  }
+  main .dataPengalaman .jumbotron {
+    background-image: url("../../image/background.jpg");
+  }
+  main .dataPengalaman img {
+    height: 64px;
+  }
+  main .dataPengalaman .pengguna {
+    font-size: 44px;
+  }
+  main .dataPengajuanTanpaSurvey {
+    color: #ffffff;
+    margin-top: 40px;
+  }
+  main .dataPengajuanTanpaSurvey .jumbotron {
+    overflow: hidden;
+    margin-top: -40px;
+    background: #012756;
+  }
+  main .dataPengajuanTanpaSurvey .jumbotron .btn-custom {
+    color: #F5B51F;
+    background: #012756;
+    border: 1px solid #F5B51F;
+  }
+  main .dataPengajuanTanpaSurvey .jumbotron .btn-custom:hover {
+    color: #012756;
+    background: #F5B51F;
+    border: 1px solid #012756;
+  }
+  main .dataPengajuanRules {
+    margin-top: -40px;
+  }
+  main .dataPengajuanRules .jumbotron {
+    background: #F5B51F;
+  }
+  main .dataPengajuanRules .jumbotron .card-rules {
+    background: #DCDBDA;
+    padding: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.2);
+            box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.2);
+    min-height: 200px;
+  }
+  main .dataPengajuanRules .jumbotron .card-rules .rulesTitle {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  main .dataPengajuanRules .jumbotron .card-rules .rulesDesc {
+    font-size: 12px;
+  }
+  main .dataPengajuanRules .jumbotron .card-rules img {
+    height: 64px;
+    margin-bottom: 20px;
+  }
+  main .dataPengajuanRules .jumbotron .btn-custom {
+    background: #707070;
+    color: #F5B51F;
+  }
+  main .dataPengajuanRules .jumbotron .btn-custom:hover {
+    background: #F5B51F;
+    color: #707070;
+    border: 1px solid #707070;
+  }
+  main .testimoni .card-testimoni {
+    -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  main .testimoni .card-testimoni p {
+    font-size: 16px;
+  }
+  main .testimoni .card-testimoni .profile-testimoni img {
+    height: 64px;
+    width: 64px;
+    margin: 0px auto 10px;
+  }
+  main .testimoni .card-testimoni .profile-testimoni .profile-testimoni-name {
+    font-size: 16px;
+  }
+  main .testimoni .card-testimoni .profile-testimoni .profile-testimoni-usaha {
+    font-size: 10px;
+  }
+  main .testimoni .card-testimoni .profile-testimoni .profile-testimoni-alamat {
+    font-size: 10px;
+    font-style: italic;
+  }
+  main .testimoni .card-testimoni .testimonial {
+    font-size: 12px;
+  }
+  main .title-faq {
+    font-weight: 600;
+  }
+  main #accordion .card {
+    border: none;
+  }
+  main #accordion .card .card-header {
+    border: none;
+    background: none;
+    padding-bottom: 0px;
+  }
+  main #accordion .card .card-header h5 .btn {
+    padding-bottom: 0px;
+  }
+  main #accordion .card .card-header h5 button {
+    color: black !important;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+  }
+  main #accordion .card .card-header h5 button i {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+    -webkit-transition: 1s;
+    transition: 1s;
+    margin: 0 20px 0 -20px;
+  }
+  main #accordion .card .card-header h5 .collapsed i {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+  main #accordion .card .card-header h5 .btn-link {
+    text-decoration: none;
+  }
+  main #accordion .card .card-header h5 button:hover {
+    text-decoration: none;
+  }
+  main #accordion .card .card-body {
+    font-size: 12px;
+    padding: 5px 0px 0px 30px;
+  }
+  main .card-sale {
+    margin-top: 50px;
+    background: #F5B51F;
+    padding: 20px;
+    color: #012756;
+    border-radius: 30px;
+  }
+  main .card-sale img {
+    height: 200px;
+  }
+  main .card-sale .promo-title {
+    font-size: 24px;
+    color: "Poppins", sans-serif !important;
+  }
+  main .card-sale .promo-tawaran {
+    font-size: 14px;
+    color: "Poppins", sans-serif !important;
+  }
+  main .card-sale .btn-custom {
+    margin: 10px 0px;
+    width: 100%;
+    background: #012756;
+    color: #F5B51F;
+  }
+  main .card-sale .promo-tawaran-syarat {
+    font-size: 12px;
+  }
+  main .pengawas img {
+    height: 64px;
   }
   footer .logo {
     font-size: 20px;
