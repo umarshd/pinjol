@@ -43,7 +43,7 @@ header
         img
           height: 24px
         .display-none
-          display: none !important
+          display: none
 
       a:hover
         text-decoration: none
@@ -60,7 +60,7 @@ header
         img
           height: 24px
         .display-none
-          display: none !important
+          display: none
 
       a:hover
         text-decoration: none
@@ -125,9 +125,16 @@ main
     height: 350px
     transition: .5s
 
+  .title-section
+    font-weight: bold
+  .second-title-section
+    font-weight: normal
   .leasing-partner
-    .img-fluid
+    img
       height: 64px
+
+    .kreditplus-img
+      height: 50px !important
   .card-home
     padding: 50px
     background: $color-primary
@@ -303,6 +310,7 @@ main
     .promo-title
       font-size: 24px
       color: $font-primary !important
+      font-weight: 600
     .promo-tawaran
       font-size: 14px
       color: $font-primary !important
@@ -311,13 +319,35 @@ main
       width: 100%
       background: $color-primary
       color: $color-anchor-hover
+
+    .btn-custom:hover
+      background: $color-anchor-hover
+      border: 1px solid $color-primary
+      color: $color-primary
     .promo-tawaran-syarat
       font-size: 12px
 
   .pengawas
+    h3
+      font-weight: 400
     img
       height: 64px
 
+    .ojk-img
+      height: 128px
+      margin-top: -10px
+
+    .appi-img
+      margin-top: 30px
+      height: 50px
+
+    .infobank-img
+      margin-top: -3px
+      height: 96px
+
+    .investor-img
+      height: 50px
+      margin-top: 26px
 footer
   background: $color-primary
   color: #ffffff
@@ -447,7 +477,7 @@ footer
 
         p
           font-size: 10px
-          margin-left: 0px
+          margin-left: -10px
 
     ul
       li
@@ -665,6 +695,10 @@ footer
         margin-right: 20px
         a
           font-size: 10px
+          img
+
+          .display-none
+            display: none
 
     .jumbotron
       margin-top: 60px
@@ -938,6 +972,8 @@ footer
         margin-right: 20px
         a
           font-size: 10px
+          .display-none
+            display: inline
 
     .jumbotron
       margin-top: 60px
@@ -1208,6 +1244,8 @@ footer
 
         a
           font-size: 10px
+          .display-none
+            display: inline
 
       .waNav-mobile-display
         display: none
@@ -1261,7 +1299,7 @@ footer
     .img-fluid
       border-radius: 20px
       margin: 20px 0px
-      height: 400px
+      height: 300px
       transition: .5s
 
     .leasing-partner
@@ -1277,6 +1315,7 @@ footer
           color: black
           background: white
           width: 100px
+          height: 75px
           justify-content: end
           position: relative
           right: -20px
@@ -1291,7 +1330,15 @@ footer
           font-size: 14px
 
     ul
-      list-style: none
+      li
+
+        font-size: 16px
+        img
+          height: 16px
+
+    .btn-action
+      .btn-custom
+        font-size: 16px !important
 
     .btn-custom
       background: #F5B51F
@@ -1337,6 +1384,7 @@ footer
           border-radius: 20px
           box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.2)
           min-height: 200px
+          width: 180px
 
           .rulesImage
           .rulesTitle
@@ -1347,7 +1395,7 @@ footer
             font-size: 12px
 
           img
-            height: 64px
+            height: 40px
             margin-bottom: 20px
 
         .btn-custom
@@ -1451,8 +1499,26 @@ footer
         font-size: 12px
 
     .pengawas
+      h3
+        font-weight: 400
       img
         height: 64px
+
+      .ojk-img
+        height: 118px
+        margin-top: -10px
+
+      .appi-img
+        margin-top: 30px
+        height: 40px
+
+      .infobank-img
+        margin-top: -3px
+        height: 86px
+
+      .investor-img
+        height: 40px
+        margin-top: 26px
 
   footer
     .logo
@@ -1501,6 +1567,67 @@ footer
 
       .display-4
         font-size: 25px
+
+  main
+    .dataPengajuanRules
+      margin-top: -40px
+      .jumbotron
+        background: $color-anchor-hover
+        .card-rules
+          background: #DCDBDA
+          padding: 20px
+          border-radius: 20px
+          box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.2)
+          min-height: 200px
+
+          .rulesImage
+          .rulesTitle
+            font-size: 14px
+            font-weight: 600
+
+          .rulesDesc
+            font-size: 12px
+
+          img
+            height: 64px
+            margin-bottom: 20px
+
+        .btn-custom
+          background: #707070
+          color: $color-anchor-hover
+
+        .btn-custom:hover
+          background: $color-anchor-hover
+          color: #707070
+          border: 1px solid #707070
+
+    .img-fluid
+      border-radius: 20px
+      margin: 20px 0px
+      height: 400px
+      transition: .5s
+
+    .pengawas
+      h3
+        font-weight: 400
+      img
+        height: 64px
+
+      .ojk-img
+        height: 128px
+        margin-top: -10px
+
+      .appi-img
+        margin-top: 30px
+        height: 50px
+
+      .infobank-img
+        margin-top: -3px
+        height: 96px
+
+      .investor-img
+        height: 50px
+        margin-top: 26px
 
   footer
     .logo

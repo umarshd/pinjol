@@ -44,7 +44,7 @@ header nav .waNav-desktop-display a img {
 }
 
 header nav .waNav-desktop-display a .display-none {
-  display: none !important;
+  display: none;
 }
 
 header nav .waNav-desktop-display a:hover {
@@ -66,7 +66,7 @@ header nav .waNav-mobile-display a img {
 }
 
 header nav .waNav-mobile-display a .display-none {
-  display: none !important;
+  display: none;
 }
 
 header nav .waNav-mobile-display a:hover {
@@ -148,8 +148,20 @@ main .img-fluid {
   transition: .5s;
 }
 
-main .leasing-partner .img-fluid {
+main .title-section {
+  font-weight: bold;
+}
+
+main .second-title-section {
+  font-weight: normal;
+}
+
+main .leasing-partner img {
   height: 64px;
+}
+
+main .leasing-partner .kreditplus-img {
+  height: 50px !important;
 }
 
 main .card-home {
@@ -388,6 +400,7 @@ main .card-sale img {
 main .card-sale .promo-title {
   font-size: 24px;
   color: "Poppins", sans-serif !important;
+  font-weight: 600;
 }
 
 main .card-sale .promo-tawaran {
@@ -402,12 +415,42 @@ main .card-sale .btn-custom {
   color: #F5B51F;
 }
 
+main .card-sale .btn-custom:hover {
+  background: #F5B51F;
+  border: 1px solid #012756;
+  color: #012756;
+}
+
 main .card-sale .promo-tawaran-syarat {
   font-size: 12px;
 }
 
+main .pengawas h3 {
+  font-weight: 400;
+}
+
 main .pengawas img {
   height: 64px;
+}
+
+main .pengawas .ojk-img {
+  height: 128px;
+  margin-top: -10px;
+}
+
+main .pengawas .appi-img {
+  margin-top: 30px;
+  height: 50px;
+}
+
+main .pengawas .infobank-img {
+  margin-top: -3px;
+  height: 96px;
+}
+
+main .pengawas .investor-img {
+  height: 50px;
+  margin-top: 26px;
 }
 
 footer {
@@ -551,7 +594,7 @@ footer .copyright {
   }
   main .card-home form p {
     font-size: 10px;
-    margin-left: 0px;
+    margin-left: -10px;
   }
   main ul li {
     font-size: 10px;
@@ -786,6 +829,9 @@ footer .copyright {
   }
   header nav .waNav-mobile-display a {
     font-size: 10px;
+  }
+  header nav .waNav-mobile-display a .display-none {
+    display: none;
   }
   header .jumbotron {
     margin-top: 60px;
@@ -1074,6 +1120,9 @@ footer .copyright {
   header nav .waNav-mobile-display a {
     font-size: 10px;
   }
+  header nav .waNav-mobile-display a .display-none {
+    display: inline;
+  }
   header .jumbotron {
     margin-top: 60px;
     height: 200px;
@@ -1356,6 +1405,9 @@ footer .copyright {
   header nav .waNav-desktop-display a {
     font-size: 10px;
   }
+  header nav .waNav-desktop-display a .display-none {
+    display: inline;
+  }
   header nav .waNav-mobile-display {
     display: none;
   }
@@ -1409,7 +1461,7 @@ footer .copyright {
   main .img-fluid {
     border-radius: 20px;
     margin: 20px 0px;
-    height: 400px;
+    height: 300px;
     -webkit-transition: .5s;
     transition: .5s;
   }
@@ -1426,6 +1478,7 @@ footer .copyright {
     color: black;
     background: white;
     width: 100px;
+    height: 75px;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: end;
@@ -1441,8 +1494,14 @@ footer .copyright {
     margin-left: 50px;
     font-size: 14px;
   }
-  main ul {
-    list-style: none;
+  main ul li {
+    font-size: 16px;
+  }
+  main ul li img {
+    height: 16px;
+  }
+  main .btn-action .btn-custom {
+    font-size: 16px !important;
   }
   main .btn-custom {
     background: #F5B51F;
@@ -1496,6 +1555,7 @@ footer .copyright {
     -webkit-box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.2);
             box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.2);
     min-height: 200px;
+    width: 180px;
   }
   main .dataPengajuanRules .jumbotron .card-rules .rulesTitle {
     font-size: 14px;
@@ -1505,7 +1565,7 @@ footer .copyright {
     font-size: 12px;
   }
   main .dataPengajuanRules .jumbotron .card-rules img {
-    height: 64px;
+    height: 40px;
     margin-bottom: 20px;
   }
   main .dataPengajuanRules .jumbotron .btn-custom {
@@ -1616,8 +1676,27 @@ footer .copyright {
   main .card-sale .promo-tawaran-syarat {
     font-size: 12px;
   }
+  main .pengawas h3 {
+    font-weight: 400;
+  }
   main .pengawas img {
     height: 64px;
+  }
+  main .pengawas .ojk-img {
+    height: 118px;
+    margin-top: -10px;
+  }
+  main .pengawas .appi-img {
+    margin-top: 30px;
+    height: 40px;
+  }
+  main .pengawas .infobank-img {
+    margin-top: -3px;
+    height: 86px;
+  }
+  main .pengawas .investor-img {
+    height: 40px;
+    margin-top: 26px;
   }
   footer .logo {
     font-size: 20px;
@@ -1672,6 +1751,69 @@ footer .copyright {
   }
   header .jumbotron .display-4 {
     font-size: 25px;
+  }
+  main .dataPengajuanRules {
+    margin-top: -40px;
+  }
+  main .dataPengajuanRules .jumbotron {
+    background: #F5B51F;
+  }
+  main .dataPengajuanRules .jumbotron .card-rules {
+    background: #DCDBDA;
+    padding: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.2);
+            box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.2);
+    min-height: 200px;
+  }
+  main .dataPengajuanRules .jumbotron .card-rules .rulesTitle {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  main .dataPengajuanRules .jumbotron .card-rules .rulesDesc {
+    font-size: 12px;
+  }
+  main .dataPengajuanRules .jumbotron .card-rules img {
+    height: 64px;
+    margin-bottom: 20px;
+  }
+  main .dataPengajuanRules .jumbotron .btn-custom {
+    background: #707070;
+    color: #F5B51F;
+  }
+  main .dataPengajuanRules .jumbotron .btn-custom:hover {
+    background: #F5B51F;
+    color: #707070;
+    border: 1px solid #707070;
+  }
+  main .img-fluid {
+    border-radius: 20px;
+    margin: 20px 0px;
+    height: 400px;
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+  main .pengawas h3 {
+    font-weight: 400;
+  }
+  main .pengawas img {
+    height: 64px;
+  }
+  main .pengawas .ojk-img {
+    height: 128px;
+    margin-top: -10px;
+  }
+  main .pengawas .appi-img {
+    margin-top: 30px;
+    height: 50px;
+  }
+  main .pengawas .infobank-img {
+    margin-top: -3px;
+    height: 96px;
+  }
+  main .pengawas .investor-img {
+    height: 50px;
+    margin-top: 26px;
   }
   footer .logo {
     font-size: 24px;
