@@ -529,6 +529,12 @@ footer .copyright {
     margin-top: 120px;
     margin-bottom: 100px;
   }
+  main .title-section {
+    font-weight: bold;
+  }
+  main .second-title-section {
+    font-weight: normal;
+  }
   main .slider .slider-card {
     position: relative;
   }
