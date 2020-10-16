@@ -899,7 +899,7 @@ footer .copyright {
   }
   main .card-home form .card-input-home img {
     height: 44px;
-    margin-left: 30px;
+    margin-left: 5px;
   }
   main .card-home form p {
     margin-left: 0px;
@@ -1183,10 +1183,19 @@ footer .copyright {
   }
   main .card-home form .card-input-home img {
     height: 44px;
-    margin-left: 30px;
+    margin-left: 5px;
   }
   main .card-home form p {
     margin-left: 0px;
+  }
+  main ul li {
+    font-size: 14px;
+  }
+  main ul li img {
+    height: 14px;
+  }
+  main .btn-action .btn-custom {
+    font-size: 14px !important;
   }
   main .dataPengalaman {
     color: #ffffff;
@@ -1240,16 +1249,17 @@ footer .copyright {
     -webkit-box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.2);
             box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.2);
     min-height: 100px;
+    width: 130px;
   }
   main .dataPengajuanRules .jumbotron .card-rules .rulesTitle {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
   }
   main .dataPengajuanRules .jumbotron .card-rules .rulesDesc {
-    font-size: 12px;
+    font-size: 10px;
   }
   main .dataPengajuanRules .jumbotron .card-rules img {
-    height: 64px;
+    height: 32px;
     margin-bottom: 20px;
   }
   main .dataPengajuanRules .jumbotron .btn-custom {
@@ -1361,14 +1371,27 @@ footer .copyright {
   main .card-sale .promo-tawaran-syarat {
     font-size: 12px;
   }
+  main .pengawas h3 {
+    font-weight: 400;
+  }
   main .pengawas img {
-    height: 64px;
+    height: 44px;
   }
-  main #accordion .card-header h5 .btn {
-    font-size: 16px !important;
+  main .pengawas .ojk-img {
+    height: 98px;
+    margin-top: -10px;
   }
-  main #accordion .card-header .card-body {
-    font-size: 14px !important;
+  main .pengawas .appi-img {
+    margin-top: 30px;
+    height: 30px;
+  }
+  main .pengawas .infobank-img {
+    margin-top: 3px;
+    height: 66px;
+  }
+  main .pengawas .investor-img {
+    height: 30px;
+    margin-top: 26px;
   }
   footer .logo {
     font-size: 20px;
