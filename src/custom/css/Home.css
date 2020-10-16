@@ -449,7 +449,7 @@ footer .copyright {
     font-size: 14px;
   }
   header nav .navbar-brand {
-    font-size: 25px;
+    font-size: 20px;
   }
   header nav .waNav-desktop-display {
     display: none;
@@ -463,6 +463,9 @@ footer .copyright {
   }
   header nav .waNav-mobile-display a {
     font-size: 10px;
+  }
+  header nav .waNav-mobile-display a span {
+    display: none;
   }
   header .jumbotron {
     margin-top: 60px;
