@@ -43,6 +43,10 @@ header nav .waNav-desktop-display a img {
   height: 24px;
 }
 
+header nav .waNav-desktop-display a .display-none {
+  display: none !important;
+}
+
 header nav .waNav-desktop-display a:hover {
   text-decoration: none;
 }
@@ -59,6 +63,10 @@ header nav .waNav-mobile-display a {
 
 header nav .waNav-mobile-display a img {
   height: 24px;
+}
+
+header nav .waNav-mobile-display a .display-none {
+  display: none !important;
 }
 
 header nav .waNav-mobile-display a:hover {
@@ -464,6 +472,9 @@ footer .copyright {
   header nav .waNav-mobile-display a {
     font-size: 8px;
   }
+  header nav .waNav-mobile-display a span {
+    display: none;
+  }
   header .jumbotron {
     margin-top: 60px;
     height: 200px;
@@ -519,9 +530,9 @@ footer .copyright {
     transition: .5s;
   }
   main .card-home form .card-input-home {
-    margin-left: auto;
-    margin-right: auto;
     position: static;
+    width: 50px;
+    height: 50px;
   }
   main .card-home form .card-input-home label input {
     display: none;
@@ -534,11 +545,22 @@ footer .copyright {
     outline: 2px solid #F5B51F;
   }
   main .card-home form .card-input-home img {
-    height: 44px;
-    margin-left: 30px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 5px;
   }
   main .card-home form p {
+    font-size: 10px;
     margin-left: 0px;
+  }
+  main ul li {
+    font-size: 10px;
+  }
+  main ul li img {
+    height: 10px;
+  }
+  main .btn-action .btn-custom {
+    font-size: 12px !important;
   }
   main .dataPengalaman {
     color: #ffffff;
@@ -592,6 +614,8 @@ footer .copyright {
     -webkit-box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.2);
             box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.2);
     min-height: 100px;
+    width: 200px;
+    margin: 10px auto;
   }
   main .dataPengajuanRules .jumbotron .card-rules .rulesTitle {
     font-size: 14px;
@@ -601,7 +625,7 @@ footer .copyright {
     font-size: 12px;
   }
   main .dataPengajuanRules .jumbotron .card-rules img {
-    height: 64px;
+    height: 40px;
     margin-bottom: 20px;
   }
   main .dataPengajuanRules .jumbotron .btn-custom {
@@ -654,7 +678,7 @@ footer .copyright {
   }
   main #accordion .card .card-header h5 .btn {
     padding-bottom: 0px;
-    font-size: 12px;
+    font-size: 10px;
   }
   main #accordion .card .card-header h5 button {
     color: black !important;
