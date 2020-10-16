@@ -462,10 +462,7 @@ footer .copyright {
     margin-right: 20px;
   }
   header nav .waNav-mobile-display a {
-    font-size: 10px;
-  }
-  header nav .waNav-mobile-display a span {
-    display: none;
+    font-size: 8px;
   }
   header .jumbotron {
     margin-top: 60px;
@@ -517,7 +514,7 @@ footer .copyright {
   main .img-fluid {
     border-radius: 20px;
     margin: 20px 0px;
-    height: 100px;
+    height: 150px;
     -webkit-transition: .5s;
     transition: .5s;
   }
