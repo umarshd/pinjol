@@ -517,7 +517,7 @@ footer .copyright {
   main .img-fluid {
     border-radius: 20px;
     margin: 20px 0px;
-    height: 200px;
+    height: 100px;
     -webkit-transition: .5s;
     transition: .5s;
   }
