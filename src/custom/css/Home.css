@@ -99,6 +99,7 @@ main {
 
 main .banner-top {
   color: #ffffff;
+  font-family: "Open Sans", sans-serif;
 }
 
 main .banner-top .jumbotron {
@@ -536,13 +537,14 @@ footer .copyright {
     margin-right: 8px;
   }
   header nav .waNav-mobile-display a {
+    padding: 5px 10px;
     font-size: 14px;
   }
   header nav .waNav-mobile-display a img {
-    height: 14px;
+    height: 20px;
   }
   header nav .waNav-mobile-display a .display-none {
-    font-size: 8px;
+    font-size: 14px;
     display: inline;
   }
   header .jumbotron {
