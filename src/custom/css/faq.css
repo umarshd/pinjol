@@ -248,7 +248,7 @@ footer .copyright {
             transform: rotate(-90deg);
     -webkit-transition: 1s;
     transition: 1s;
-    margin: 0 20px 0 -20px;
+    margin: 0 0px 0 -20px;
   }
   main #accordion .card .card-header h5 .collapsed i {
     -webkit-transform: rotate(0deg);
@@ -285,7 +285,7 @@ footer .copyright {
     font-size: 12px;
   }
   footer .copyright {
-    text-align: center;
+    text-align: start;
     margin: 30px 0px;
     position: relative;
     font-size: 12px;
@@ -322,8 +322,12 @@ footer .copyright {
   main #accordion .card-header h5 .btn {
     font-size: 14px !important;
   }
+  main #accordion .card-header h5 .btn button {
+    margin: 0px 20px 0px -20px;
+  }
   main #accordion .card-header .card-body {
-    font-size: 12px !important;
+    font-size: 14px !important;
+    padding: 5px 0px 0px 30px;
   }
   footer .logo {
     font-size: 20px;
