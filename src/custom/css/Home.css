@@ -1771,6 +1771,7 @@ footer .copyright {
   }
   main #accordion .card .card-header h5 .btn {
     padding-bottom: 0px;
+    font-size: 16px !important;
   }
   main #accordion .card .card-header h5 button {
     color: black !important;
@@ -1800,7 +1801,7 @@ footer .copyright {
     text-decoration: none;
   }
   main #accordion .card .card-body {
-    font-size: 12px;
+    font-size: 14px !important;
     padding: 5px 0px 0px 30px;
   }
   main .card-sale {
