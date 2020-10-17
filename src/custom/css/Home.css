@@ -107,6 +107,7 @@ main .banner-top .jumbotron {
   background-image: url("../../image/header.png");
   height: 600px;
   background-size: cover;
+  position: relative;
 }
 
 main .banner-top .jumbotron h3 {
@@ -116,6 +117,20 @@ main .banner-top .jumbotron h3 {
 
 main .banner-top .jumbotron p {
   color: #F5B51F;
+}
+
+main .banner-top .jumbotron .paragraph-mitra {
+  position: absolute;
+  bottom: -50px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+main .banner-top .jumbotron .paragraph-mitra img {
+  position: absolute;
+  bottom: -40px;
+  margin-left: 10px;
+  height: 64px;
 }
 
 main .banner-top .jumbotron img {
@@ -281,6 +296,10 @@ main .dataPengajuanRules {
 
 main .dataPengajuanRules .jumbotron {
   background: #F5B51F;
+}
+
+main .dataPengajuanRules .jumbotron h4 {
+  line-height: 1.8;
 }
 
 main .dataPengajuanRules .jumbotron .card-rules {
@@ -563,11 +582,26 @@ footer .copyright {
     margin-top: 120px;
     margin-bottom: 100px;
   }
+  main .list-display-d {
+    display: none;
+  }
   main .banner-top .jumbotron h3 {
-    margin-top: 100px;
+    margin-top: 70px;
+  }
+  main .banner-top .jumbotron .paragraph-mitra {
+    position: absolute;
+    bottom: -80px;
+    margin-top: 10px;
+    color: #ffffff;
+  }
+  main .banner-top .jumbotron .paragraph-mitra img {
+    position: absolute;
+    bottom: -35px;
+    margin-left: 10px;
+    height: 50px;
   }
   main .banner-top .jumbotron img {
-    margin-top: 40px;
+    margin-top: 90px;
     height: 180px;
   }
   main .title-section {
@@ -662,16 +696,18 @@ footer .copyright {
     cursor: pointer;
   }
   main .card-home form .card-input-home label input:checked ~ img {
-    outline: 2px solid #F5B51F;
+    background-color: #F5B51F;
+    border-radius: 0px;
   }
   main .card-home form .card-input-home img {
-    height: 40px;
-    margin-top: 5px;
-    margin-left: 5px;
+    height: 50px;
+    margin-top: 0px;
+    margin-left: 0px;
   }
   main .card-home form p {
     font-size: 10px;
-    margin-left: -10px;
+    margin-top: 10px;
+    margin-left: 10px;
   }
   main ul {
     padding-left: 0px;
@@ -930,6 +966,12 @@ footer .copyright {
   header .jumbotron .display-4 {
     font-size: 25px;
   }
+  main .list-display-m {
+    display: none;
+  }
+  main .list-display-d {
+    display: block;
+  }
   main .banner-top .jumbotron {
     height: 700px;
   }
@@ -990,10 +1032,24 @@ footer .copyright {
     margin-left: auto;
     margin-right: auto;
     position: static;
+    width: 50px;
+    height: 50px;
+  }
+  main .card-home form .card-input-home label input {
+    display: none;
+    position: absolute;
+  }
+  main .card-home form .card-input-home label input + img {
+    cursor: pointer;
+  }
+  main .card-home form .card-input-home label input:checked ~ img {
+    background-color: #F5B51F;
+    border-radius: 0px;
   }
   main .card-home form .card-input-home img {
-    height: 44px;
-    margin-left: 5px;
+    height: 50px;
+    margin-top: 0px;
+    margin-left: 0px;
   }
   main .card-home form p {
     margin-left: 0px;
@@ -1238,10 +1294,22 @@ footer .copyright {
     height: 450px;
   }
   main .banner-top .jumbotron h3 {
-    margin-top: 100px;
+    margin-top: 50px;
+  }
+  main .banner-top .jumbotron .paragraph-mitra {
+    position: absolute;
+    bottom: -80px;
+    margin-top: 10px;
+    color: #ffffff;
+  }
+  main .banner-top .jumbotron .paragraph-mitra img {
+    position: absolute;
+    bottom: -35px;
+    margin-left: 10px;
+    height: 50px;
   }
   main .banner-top .jumbotron img {
-    margin-top: 100px;
+    margin-top: 50px;
     height: 200px;
   }
   main .slider .slider-card h3 {
@@ -1288,10 +1356,24 @@ footer .copyright {
     margin-left: auto;
     margin-right: auto;
     position: static;
+    width: 50px;
+    height: 50px;
+  }
+  main .card-home form .card-input-home label input {
+    display: none;
+    position: absolute;
+  }
+  main .card-home form .card-input-home label input + img {
+    cursor: pointer;
+  }
+  main .card-home form .card-input-home label input:checked ~ img {
+    background-color: #F5B51F;
+    border-radius: 0px;
   }
   main .card-home form .card-input-home img {
-    height: 44px;
-    margin-left: 5px;
+    height: 50px;
+    margin-top: 0px;
+    margin-left: 0px;
   }
   main .card-home form p {
     margin-left: 0px;
@@ -1572,6 +1654,18 @@ footer .copyright {
   main .banner-top .jumbotron h3 {
     margin-top: 100px;
   }
+  main .banner-top .jumbotron .paragraph-mitra {
+    position: absolute;
+    bottom: -50px;
+    margin-top: 10px;
+    color: #ffffff;
+  }
+  main .banner-top .jumbotron .paragraph-mitra img {
+    position: absolute;
+    bottom: -40px;
+    margin-left: 10px;
+    height: 64px;
+  }
   main .banner-top .jumbotron img {
     margin-top: 100px;
     height: 260px;
@@ -1638,15 +1732,29 @@ footer .copyright {
             justify-content: end;
     position: relative;
     right: -20px;
+    width: 80px;
+    height: 80px;
+  }
+  main .card-home form .card-input-home label input {
+    display: none;
+    position: absolute;
+  }
+  main .card-home form .card-input-home label input + img {
+    cursor: pointer;
+  }
+  main .card-home form .card-input-home label input:checked ~ img {
+    background-color: #F5B51F;
+    border-radius: 0px;
   }
   main .card-home form .card-input-home img {
-    height: 64px;
-    margin-left: 20px;
+    height: 80px;
+    margin-top: 0px;
+    margin-left: 0px;
   }
   main .card-home form p {
     text-align: center;
-    margin-left: 50px;
-    font-size: 14px;
+    margin-left: 40px;
+    font-size: 12px;
   }
   main ul li {
     font-size: 16px;
@@ -1756,7 +1864,7 @@ footer .copyright {
     font-style: italic;
   }
   main .testimoni .card-testimoni .testimonial {
-    font-size: 12px;
+    font-size: 16px;
   }
   main .title-faq {
     font-weight: 600;
@@ -1907,11 +2015,29 @@ footer .copyright {
   header .jumbotron .display-4 {
     font-size: 25px;
   }
+  main {
+    margin-bottom: 0px;
+  }
   main .banner-top .jumbotron {
     height: 600px;
+    position: relative;
   }
   main .banner-top .jumbotron h3 {
-    margin-top: 100px;
+    margin-top: 140px;
+    font-weight: 600;
+    letter-spacing: .5px;
+  }
+  main .banner-top .jumbotron .paragraph-mitra {
+    position: absolute;
+    bottom: -50px;
+    margin-top: 10px;
+    color: #ffffff;
+  }
+  main .banner-top .jumbotron .paragraph-mitra img {
+    position: absolute;
+    bottom: -40px;
+    margin-left: 10px;
+    height: 64px;
   }
   main .banner-top .jumbotron img {
     margin-top: 100px;

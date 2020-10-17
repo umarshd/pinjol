@@ -83,6 +83,7 @@ main
   margin-bottom: 100px
 
   .banner-top
+
     color: #ffffff
     font-family: $font-body
     .jumbotron
@@ -90,6 +91,7 @@ main
       background-image: url("../../image/header.png")
       height: 600px
       background-size: cover
+      position: relative
 
       h3
         margin-top: 200px
@@ -97,6 +99,18 @@ main
 
       p
         color: $color-anchor-hover
+
+      .paragraph-mitra
+        position: absolute
+        bottom: -50px
+        margin-top: 10px
+        color: #ffffff
+
+        img
+          position: absolute
+          bottom: -40px
+          margin-left: 10px
+          height: 64px
 
       img
         margin-top: 200px
@@ -221,6 +235,8 @@ main
     margin-top: -40px
     .jumbotron
       background: $color-anchor-hover
+      h4
+        line-height: 1.8
       .card-rules
         background: #DCDBDA
         padding: 20px
@@ -435,14 +451,29 @@ footer
   main
     margin-top: 120px
     margin-bottom: 100px
+    .list-display-d
+      display: none
+
     .banner-top
       .jumbotron
 
         h3
-          margin-top: 100px
+          margin-top: 70px
+
+        .paragraph-mitra
+          position: absolute
+          bottom: -80px
+          margin-top: 10px
+          color: #ffffff
+
+          img
+            position: absolute
+            bottom: -35px
+            margin-left: 10px
+            height: 50px
 
         img
-          margin-top: 40px
+          margin-top: 90px
           height: 180px
     .title-section
       font-weight: bold
@@ -522,15 +553,17 @@ footer
               cursor: pointer
 
             input:checked ~ img
-              outline: 2px solid $color-anchor-hover
+              background-color: $color-anchor-hover
+              border-radius: 0px
           img
-            height: 40px
-            margin-top: 5px
-            margin-left: 5px
+            height: 50px
+            margin-top: 0px
+            margin-left: 0px
 
         p
           font-size: 10px
-          margin-left: -10px
+          margin-top: 10px
+          margin-left: 10px
 
     ul
       padding-left: 0px
@@ -771,6 +804,10 @@ footer
         font-size: 25px
 
   main
+    .list-display-m
+      display: none
+    .list-display-d
+      display: block
     .banner-top
       .jumbotron
         height: 700px
@@ -837,9 +874,24 @@ footer
           margin-left: auto
           margin-right: auto
           position: static
+          width: 50px
+          height: 50px
+          label
+
+            input
+              display: none
+              position: absolute
+
+            input + img
+              cursor: pointer
+
+            input:checked ~ img
+              background-color: $color-anchor-hover
+              border-radius: 0px
           img
-            height: 44px
-            margin-left: 5px
+            height: 50px
+            margin-top: 0px
+            margin-left: 0px
         p
           margin-left: 0px
 
@@ -1064,10 +1116,22 @@ footer
         height: 450px
 
         h3
-          margin-top: 100px
+          margin-top: 50px
+
+        .paragraph-mitra
+          position: absolute
+          bottom: -80px
+          margin-top: 10px
+          color: #ffffff
+
+          img
+            position: absolute
+            bottom: -35px
+            margin-left: 10px
+            height: 50px
 
         img
-          margin-top: 100px
+          margin-top: 50px
           height: 200px
     .slider
       .slider-card
@@ -1117,9 +1181,25 @@ footer
           margin-left: auto
           margin-right: auto
           position: static
+          width: 50px
+          height: 50px
+          label
+
+            input
+              display: none
+              position: absolute
+
+            input + img
+              cursor: pointer
+
+            input:checked ~ img
+              background-color: $color-anchor-hover
+              border-radius: 0px
           img
-            height: 44px
-            margin-left: 5px
+            height: 50px
+            margin-top: 0px
+            margin-left: 0px
+
         p
           margin-left: 0px
 
@@ -1377,6 +1457,18 @@ footer
         h3
           margin-top: 100px
 
+        .paragraph-mitra
+          position: absolute
+          bottom: -50px
+          margin-top: 10px
+          color: #ffffff
+
+          img
+            position: absolute
+            bottom: -40px
+            margin-left: 10px
+            height: 64px
+
         img
           margin-top: 100px
           height: 260px
@@ -1439,15 +1531,29 @@ footer
           justify-content: end
           position: relative
           right: -20px
+          width: 80px
+          height: 80px
+          label
 
+            input
+              display: none
+              position: absolute
+
+            input + img
+              cursor: pointer
+
+            input:checked ~ img
+              background-color: $color-anchor-hover
+              border-radius: 0px
           img
-            height: 64px
-            margin-left: 20px
+            height: 80px
+            margin-top: 0px
+            margin-left: 0px
 
         p
           text-align: center
-          margin-left: 50px
-          font-size: 14px
+          margin-left: 40px
+          font-size: 12px
 
     ul
       li
@@ -1551,7 +1657,7 @@ footer
             font-style: italic
 
         .testimonial
-          font-size: 12px
+          font-size: 16px
 
     .title-faq
       font-weight: 600
@@ -1690,15 +1796,32 @@ footer
         font-size: 25px
 
   main
+    margin-bottom: 0px
     .banner-top
       .jumbotron
         height: 600px
+        position: relative
         h3
-          margin-top: 100px
+          margin-top: 140px
+          font-weight: 600
+          letter-spacing: .5px
+
+        .paragraph-mitra
+          position: absolute
+          bottom: -50px
+          margin-top: 10px
+          color: #ffffff
+
+          img
+            position: absolute
+            bottom: -40px
+            margin-left: 10px
+            height: 64px
 
         img
           margin-top: 100px
           height: 300px
+
     .dataPengajuanRules
       margin-top: -40px
       .jumbotron
