@@ -97,11 +97,28 @@ main {
   margin-bottom: 100px;
 }
 
+main .banner-top {
+  color: #ffffff;
+}
+
 main .banner-top .jumbotron {
   margin-top: -100px;
   background-image: url("../../image/header.png");
   height: 600px;
   background-size: cover;
+}
+
+main .banner-top .jumbotron h3 {
+  margin-top: 200px;
+  text-transform: uppercase;
+}
+
+main .banner-top .jumbotron p {
+  color: #F5B51F;
+}
+
+main .banner-top .jumbotron .btn-custom {
+  color: black;
 }
 
 main .slider .slider-card {
@@ -538,6 +555,13 @@ footer .copyright {
   main {
     margin-top: 120px;
     margin-bottom: 100px;
+  }
+  main .banner-top .jumbotron h3 {
+    margin-top: 100px;
+  }
+  main .banner-top .jumbotron img {
+    margin-top: 20px;
+    height: 200px;
   }
   main .title-section {
     font-weight: bold;
