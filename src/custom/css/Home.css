@@ -99,7 +99,7 @@ main {
 
 main .banner-top .jumbotron {
   margin-top: -100px;
-  background-image: url("../../image/1.jpg");
+  background-image: url("../../image/header.png");
   height: 600px;
   background-size: cover;
 }
@@ -506,7 +506,7 @@ footer .copyright {
     font-size: 14px;
   }
   header nav .navbar-brand {
-    font-size: 20px;
+    font-size: 18px;
   }
   header nav .waNav-desktop-display {
     display: none;
@@ -515,14 +515,18 @@ footer .copyright {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-left: auto;
-    margin-right: 20px;
+    margin-left: 0px;
+    margin-right: 8px;
   }
   header nav .waNav-mobile-display a {
     font-size: 8px;
   }
-  header nav .waNav-mobile-display a span {
-    display: none;
+  header nav .waNav-mobile-display a img {
+    height: 10px;
+  }
+  header nav .waNav-mobile-display a .display-none {
+    font-size: 8px;
+    display: inline;
   }
   header .jumbotron {
     margin-top: 60px;
@@ -540,6 +544,36 @@ footer .copyright {
   }
   main .second-title-section {
     font-weight: normal;
+  }
+  main .leasing-partner .col-6:nth-child(1) {
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
+  }
+  main .leasing-partner .col-6:nth-child(2) {
+    -webkit-box-ordinal-group: 7;
+        -ms-flex-order: 6;
+            order: 6;
+  }
+  main .leasing-partner .col-6:nth-child(3) {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+  main .leasing-partner .col-6:nth-child(4) {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  main .leasing-partner .col-6:nth-child(5) {
+    -webkit-box-ordinal-group: 6;
+        -ms-flex-order: 5;
+            order: 5;
+  }
+  main .leasing-partner .col-6:nth-child(6) {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
   }
   main .slider .slider-card {
     position: relative;
@@ -608,11 +642,14 @@ footer .copyright {
     font-size: 10px;
     margin-left: -10px;
   }
+  main ul {
+    padding-left: 0px;
+  }
   main ul li {
-    font-size: 10px;
+    font-size: 14px;
   }
   main ul li img {
-    height: 10px;
+    height: 14px;
   }
   main .btn-action .btn-custom {
     font-size: 12px !important;
@@ -692,6 +729,10 @@ footer .copyright {
     color: #707070;
     border: 1px solid #707070;
   }
+  main .testimoni h4 {
+    text-align: center !important;
+    margin-bottom: 30px;
+  }
   main .testimoni .card-testimoni {
     -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
             box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
@@ -730,10 +771,11 @@ footer .copyright {
     border: none;
     background: none;
     padding-bottom: 0px;
+    padding: 12px 0px 0px;
   }
   main #accordion .card .card-header h5 .btn {
     padding-bottom: 0px;
-    font-size: 10px;
+    font-size: 14px;
   }
   main #accordion .card .card-header h5 button {
     color: black !important;
@@ -742,13 +784,14 @@ footer .copyright {
     width: 100%;
     text-align: left;
     padding-left: 20px;
+    white-space: normal;
   }
   main #accordion .card .card-header h5 button i {
     -webkit-transform: rotate(-90deg);
             transform: rotate(-90deg);
     -webkit-transition: 1s;
     transition: 1s;
-    margin: 0 20px 0 -20px;
+    margin: 0 0px 0 -20px;
   }
   main #accordion .card .card-header h5 .collapsed i {
     -webkit-transform: rotate(0deg);
@@ -764,7 +807,7 @@ footer .copyright {
   }
   main #accordion .card .card-body {
     font-size: 10px !important;
-    padding: 5px 0px 0px 30px;
+    padding: 5px 0px 0px 0px;
   }
   main .card-sale {
     margin-top: 50px;
@@ -774,7 +817,7 @@ footer .copyright {
     border-radius: 30px;
   }
   main .card-sale img {
-    height: 200px;
+    height: 150px;
   }
   main .card-sale .promo-title {
     font-size: 24px;
@@ -815,7 +858,7 @@ footer .copyright {
     font-size: 12px;
   }
   footer .copyright {
-    text-align: center;
+    text-align: start;
     margin: 30px 0px;
     position: relative;
     font-size: 12px;

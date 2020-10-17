@@ -85,7 +85,7 @@ main
   .banner-top
     .jumbotron
       margin-top: -100px
-      background-image: url("../../image/1.jpg")
+      background-image: url("../../image/header.png")
       height: 600px
       background-size: cover
 
@@ -392,18 +392,21 @@ footer
 
       .navbar-brand
         // font-size: 25px
-        font-size: 20px
+        font-size: 18px
       .waNav-desktop-display
         display: none
 
       .waNav-mobile-display
         display: flex
-        margin-left: auto
-        margin-right: 20px
+        margin-left: 0px
+        margin-right: 8px
         a
           font-size: 8px
-          span
-            display: none
+          img
+            height: 10px
+          .display-none
+            font-size: 8px
+            display: inline
 
     .jumbotron
       margin-top: 60px
@@ -419,6 +422,20 @@ footer
       font-weight: bold
     .second-title-section
       font-weight: normal
+
+    .leasing-partner
+      .col-6:nth-child(1)
+        order: 4
+      .col-6:nth-child(2)
+        order: 6
+      .col-6:nth-child(3)
+        order: 3
+      .col-6:nth-child(4)
+        order: 2
+      .col-6:nth-child(5)
+        order: 5
+      .col-6:nth-child(6)
+        order: 1
 
     .slider
       .slider-card
@@ -490,11 +507,11 @@ footer
           margin-left: -10px
 
     ul
+      padding-left: 0px
       li
-
-        font-size: 10px
+        font-size: 14px
         img
-          height: 10px
+          height: 14px
 
     .btn-action
       .btn-custom
@@ -568,11 +585,15 @@ footer
           border: 1px solid #707070
 
     .testimoni
+      h4
+        text-align: center !important
+        margin-bottom: 30px
       .card-testimoni
         box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2)
         padding: 10px
         border-radius: 10px
         width: 100%
+
         p
           font-size: 16px
         .profile-testimoni
@@ -604,11 +625,15 @@ footer
           border: none
           background: none
           padding-bottom: 0px
+          padding: 12px 0px 0px
 
           h5
             .btn
               padding-bottom: 0px
-              font-size: 10px
+              font-size: 14px
+
+            .btn-link
+
             button
               color: black !important
               font-weight: 600
@@ -616,11 +641,12 @@ footer
               width: 100%
               text-align: left
               padding-left: 20px
+              white-space: normal
 
               i
                 transform: rotate(-90deg)
                 transition: 1s
-                margin: 0 20px 0 -20px
+                margin: 0 0px 0 -20px
 
             .collapsed
               i
@@ -635,7 +661,7 @@ footer
 
         .card-body
           font-size: 10px !important
-          padding: 5px 0px 0px 30px
+          padding: 5px 0px 0px 0px
 
     .card-sale
       margin-top: 50px
@@ -644,7 +670,7 @@ footer
       color: $color-primary
       border-radius: 30px
       img
-        height: 200px
+        height: 150px
 
       .promo-title
         font-size: 24px
@@ -684,7 +710,7 @@ footer
       font-size: 12px
 
     .copyright
-      text-align: center
+      text-align: start
       margin: 30px 0px
       position: relative
       font-size: 12px
