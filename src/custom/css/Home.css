@@ -580,7 +580,7 @@ footer .copyright {
   }
   main {
     margin-top: 120px;
-    margin-bottom: 100px;
+    margin-bottom: 0px;
   }
   main .list-display-d {
     display: none;
