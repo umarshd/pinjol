@@ -536,7 +536,7 @@ footer .copyright {
     margin-right: 8px;
   }
   header nav .waNav-mobile-display a {
-    font-size: 12px;
+    font-size: 14px;
   }
   header nav .waNav-mobile-display a img {
     height: 14px;
@@ -560,7 +560,7 @@ footer .copyright {
     margin-top: 100px;
   }
   main .banner-top .jumbotron img {
-    margin-top: 20px;
+    margin-top: 40px;
     height: 180px;
   }
   main .title-section {
@@ -830,7 +830,7 @@ footer .copyright {
     text-decoration: none;
   }
   main #accordion .card .card-body {
-    font-size: 10px !important;
+    font-size: 14px !important;
     padding: 5px 0px 0px 0px;
   }
   main .card-sale {
