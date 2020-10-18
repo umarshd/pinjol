@@ -291,17 +291,17 @@ footer .copyright {
     margin-left: 0px;
     margin-right: 100px;
     position: relative;
-    height: 4vh;
+    height: 6vh;
     font-size: 12px;
   }
   main .container .form-check label {
     margin-top: 3px;
     position: absolute;
-    left: -70px;
+    left: -98px;
   }
   main .container .form-check input {
     position: absolute;
-    left: -70px;
+    left: -98px;
   }
   main .container button {
     font-size: 12px;
