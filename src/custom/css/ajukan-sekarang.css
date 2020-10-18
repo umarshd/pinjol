@@ -223,7 +223,7 @@ footer .copyright {
     font-size: 14px;
   }
   header nav .navbar-brand {
-    font-size: 25px;
+    font-size: 20px;
   }
   header nav .waNav-desktop-display {
     display: none;
@@ -352,6 +352,13 @@ footer .copyright {
   header nav .waNav-mobile-display a {
     font-size: 10px;
   }
+  header nav .waNav-mobile-display a img {
+    height: 16px;
+  }
+  header nav .waNav-mobile-display a .display-none {
+    font-size: 10px;
+    display: inline;
+  }
   header .jumbotron {
     margin-top: 60px;
     height: 200px;
@@ -458,6 +465,13 @@ footer .copyright {
   }
   header nav .waNav-mobile-display a {
     font-size: 10px;
+  }
+  header nav .waNav-mobile-display a img {
+    height: 22px;
+  }
+  header nav .waNav-mobile-display a .display-none {
+    display: inline;
+    font-size: 14px;
   }
   header .jumbotron {
     margin-top: 60px;

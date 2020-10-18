@@ -102,13 +102,16 @@ main
 
   .card-blog
     .card
-      height: 250px
+      min-height: 250px
       .card-body
         p
-          font-size: 10px
-
-        .card-title
           font-size: 12px
+
+          .card-title
+            font-size: 16px
+
+          .p-description
+            font-size: 14
 
 footer
   background: $color-primary
@@ -214,6 +217,11 @@ footer
         margin-right: 20px
         a
           font-size: 10px
+          img
+            height: 16px
+          .display-none
+            font-size: 10px
+            display: inline
 
     .jumbotron
       margin-top: 60px
@@ -272,6 +280,11 @@ footer
         margin-right: 20px
         a
           font-size: 10px
+          img
+            height: 22px
+          .display-none
+            display: inline
+            font-size: 14px
 
     .jumbotron
       margin-top: 60px
@@ -325,7 +338,12 @@ footer
         display: flex
 
         a
-          font-size: 10px
+          font-size: 16px
+          img
+            height: 22px
+          .display-none
+            display: inline
+            font-size: 14px
 
       .waNav-mobile-display
         display: none
@@ -383,6 +401,22 @@ footer
 
       .display-4
         font-size: 25px
+
+  main
+    .card-blog-top
+      width: 100%
+    .card-blog
+      .card
+        min-height: 250px
+        .card-body
+          p
+            font-size: 12px
+
+          .card-title
+            font-size: 16px
+
+          .p-description
+            font-size: 14
 
   footer
     .logo

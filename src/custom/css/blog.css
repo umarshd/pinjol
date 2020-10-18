@@ -118,15 +118,19 @@ main .nav .nav-item .nav-link:hover {
 }
 
 main .card-blog .card {
-  height: 250px;
+  min-height: 250px;
 }
 
 main .card-blog .card .card-body p {
-  font-size: 10px;
+  font-size: 12px;
 }
 
-main .card-blog .card .card-body .card-title {
-  font-size: 12px;
+main .card-blog .card .card-body p .card-title {
+  font-size: 16px;
+}
+
+main .card-blog .card .card-body p .p-description {
+  font-size: 14;
 }
 
 footer {
@@ -252,6 +256,13 @@ footer .copyright {
   header nav .waNav-mobile-display a {
     font-size: 10px;
   }
+  header nav .waNav-mobile-display a img {
+    height: 16px;
+  }
+  header nav .waNav-mobile-display a .display-none {
+    font-size: 10px;
+    display: inline;
+  }
   header .jumbotron {
     margin-top: 60px;
     height: 200px;
@@ -311,6 +322,13 @@ footer .copyright {
   header nav .waNav-mobile-display a {
     font-size: 10px;
   }
+  header nav .waNav-mobile-display a img {
+    height: 22px;
+  }
+  header nav .waNav-mobile-display a .display-none {
+    display: inline;
+    font-size: 14px;
+  }
   header .jumbotron {
     margin-top: 60px;
     height: 200px;
@@ -363,7 +381,14 @@ footer .copyright {
     display: flex;
   }
   header nav .waNav-desktop-display a {
-    font-size: 10px;
+    font-size: 16px;
+  }
+  header nav .waNav-desktop-display a img {
+    height: 22px;
+  }
+  header nav .waNav-desktop-display a .display-none {
+    display: inline;
+    font-size: 14px;
   }
   header nav .waNav-mobile-display {
     display: none;
@@ -428,6 +453,21 @@ footer .copyright {
   }
   header .jumbotron .display-4 {
     font-size: 25px;
+  }
+  main .card-blog-top {
+    width: 100%;
+  }
+  main .card-blog .card {
+    min-height: 250px;
+  }
+  main .card-blog .card .card-body p {
+    font-size: 12px;
+  }
+  main .card-blog .card .card-body .card-title {
+    font-size: 16px;
+  }
+  main .card-blog .card .card-body .p-description {
+    font-size: 14;
   }
   footer .logo {
     font-size: 24px;

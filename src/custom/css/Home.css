@@ -705,9 +705,10 @@ footer .copyright {
     margin-left: 0px;
   }
   main .card-home form p {
+    text-align: center;
     font-size: 10px;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 0px;
   }
   main ul {
     padding-left: 0px;
