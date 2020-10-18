@@ -274,22 +274,31 @@ footer .copyright {
   }
   main .container .form-group label {
     font-size: 12px;
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
   }
   main .container .form-group input {
     font-size: 12px;
+    -webkit-box-flex: 50% !important;
+        -ms-flex: 50% !important;
+            flex: 50% !important;
   }
   main .container .form-group textarea {
     font-size: 12px;
+    -webkit-box-flex: 50% !important;
+        -ms-flex: 50% !important;
+            flex: 50% !important;
   }
   main .container .form-group select {
-    -webkit-box-flex: 80%;
-        -ms-flex: 80%;
-            flex: 80%;
+    -webkit-box-flex: 50% !important;
+        -ms-flex: 50% !important;
+            flex: 50% !important;
     font-size: 12px;
   }
   main .container .form-check {
     margin-left: 0px;
-    margin-right: 100px;
+    margin-right: 0px;
     position: relative;
     height: 6vh;
     font-size: 12px;
@@ -297,11 +306,11 @@ footer .copyright {
   main .container .form-check label {
     margin-top: 3px;
     position: absolute;
-    left: -98px;
+    left: -50px;
   }
   main .container .form-check input {
     position: absolute;
-    left: -98px;
+    left: -50px;
   }
   main .container button {
     font-size: 12px;
@@ -400,19 +409,19 @@ footer .copyright {
   }
   main .container .form-check {
     margin-left: 0px;
-    margin-right: 100px;
+    margin-right: 0px;
     position: relative;
-    height: 5vh;
+    height: 10vh;
     font-size: 14px;
   }
   main .container .form-check label {
     margin-top: 0px;
     position: absolute;
-    left: -60px;
+    left: 10px;
   }
   main .container .form-check input {
     position: absolute;
-    left: -60px;
+    left: 10px;
   }
   main .container button {
     background: #F5B51F;
@@ -502,23 +511,34 @@ footer .copyright {
   }
   main .container .form-group label {
     font-size: 14px;
+    -webkit-box-flex: 80%;
+        -ms-flex: 80%;
+            flex: 80%;
   }
   main .container .form-group input {
     font-size: 14px;
+    -webkit-box-flex: 80%;
+        -ms-flex: 80%;
+            flex: 80%;
+  }
+  main .container .form-group select {
+    -webkit-box-flex: 80%;
+        -ms-flex: 80%;
+            flex: 80%;
   }
   main .container .form-check {
     margin-left: 0px;
     margin-right: 100px;
     position: relative;
-    height: 5vh;
+    height: 10vh;
   }
   main .container .form-check label {
     position: absolute;
-    left: -50px;
+    left: 30px;
   }
   main .container .form-check input {
     position: absolute;
-    left: -50px;
+    left: 30px;
   }
   main .container button {
     background: #F5B51F;
@@ -618,15 +638,15 @@ footer .copyright {
     margin-left: 0px;
     margin-right: 100px;
     position: relative;
-    height: 5vh;
+    height: 10vh;
   }
   main .container .form-check label {
     position: absolute;
-    left: -10px;
+    left: 100px;
   }
   main .container .form-check input {
     position: absolute;
-    left: -10px;
+    left: 100px;
   }
   main .container button {
     background: #F5B51F;
@@ -725,16 +745,16 @@ footer .copyright {
     margin-left: 0px;
     margin-right: 100px;
     position: relative;
-    height: 5vh;
+    height: 14vh;
     font-size: 18px;
   }
   main .container .form-check label {
     position: absolute;
-    left: 20px;
+    left: 150px;
   }
   main .container .form-check input {
     position: absolute;
-    left: 20px;
+    left: 150px;
   }
   main .container button {
     background: #F5B51F;
