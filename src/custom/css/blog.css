@@ -42,6 +42,10 @@ header nav .waNav-desktop-display a img {
   height: 24px;
 }
 
+header nav .waNav-desktop-display a .display-none {
+  display: none;
+}
+
 header nav .waNav-desktop-display a:hover {
   text-decoration: none;
 }
@@ -58,6 +62,10 @@ header nav .waNav-mobile-display a {
 
 header nav .waNav-mobile-display a img {
   height: 24px;
+}
+
+header nav .waNav-mobile-display a .display-none {
+  display: none;
 }
 
 header nav .waNav-mobile-display a:hover {
@@ -185,6 +193,9 @@ footer .copyright {
   header nav .waNav-desktop-display {
     display: none;
   }
+  header nav .waNav-desktop-display .display-none {
+    display: none;
+  }
   header nav .waNav-mobile-display {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -196,12 +207,12 @@ footer .copyright {
     font-size: 14px;
     padding: 5px 10px;
   }
+  header nav .waNav-mobile-display a .display-none {
+    display: inline;
+    font-size: 10px;
+  }
   header nav .waNav-mobile-display a img {
     height: 16px;
-  }
-  header nav .waNav-mobile-display a .diplay-none {
-    font-size: 10px;
-    display: inline;
   }
   header .jumbotron {
     margin-top: 60px;
@@ -260,7 +271,7 @@ footer .copyright {
     height: 16px;
   }
   header nav .waNav-mobile-display a .display-none {
-    font-size: 10px;
+    font-size: 10px !important;
     display: inline;
   }
   header .jumbotron {
