@@ -40,6 +40,8 @@ header
         margin-left: 5px
         img
           height: 24px
+        .display-none
+          display: none
 
       a:hover
         text-decoration: none
@@ -55,6 +57,8 @@ header
         margin-left: 5px
         img
           height: 24px
+        .display-none
+          display: none
 
       a:hover
         text-decoration: none
@@ -155,23 +159,22 @@ footer
       font-size: 14px
 
       .navbar-brand
+        // font-size: 25px
         font-size: 20px
       .waNav-desktop-display
         display: none
 
       .waNav-mobile-display
         display: flex
-        margin-left: 0px !important
+        margin-left: 0px
         margin-right: 20px
         a
-          font-size: 14px
           padding: 5px 10px
-
+          font-size: 14px
           img
             height: 16px
-
           .display-none
-            font-size: 10px
+            font-size: 10px !important
             display: inline
 
     .jumbotron
@@ -266,6 +269,11 @@ footer
         margin-right: 20px
         a
           font-size: 10px
+          img
+            height: 16px
+          .display-none
+            font-size: 10px
+            display: inline
 
     .jumbotron
       margin-top: 60px
@@ -328,6 +336,11 @@ footer
         margin-right: 20px
         a
           font-size: 10px
+          img
+            height: 22px
+          .display-none
+            display: inline
+            font-size: 14px
 
     .jumbotron
       margin-top: 60px
@@ -379,9 +392,14 @@ footer
         font-size: 25px
       .waNav-desktop-display
         display: flex
-
+        align-items: center
         a
-          font-size: 10px
+          font-size: 16px
+          img
+            height: 22px
+          .display-none
+            display: inline
+            font-size: 14px
 
       .waNav-mobile-display
         display: none

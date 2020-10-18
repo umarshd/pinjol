@@ -220,14 +220,14 @@ footer .copyright {
     margin-right: 20px;
   }
   header nav .waNav-mobile-display a {
-    font-size: 14px;
     padding: 5px 10px;
+    font-size: 14px;
   }
   header nav .waNav-mobile-display a img {
     height: 16px;
   }
   header nav .waNav-mobile-display a .display-none {
-    font-size: 10px;
+    font-size: 10px !important;
     display: inline;
   }
   header .jumbotron {
@@ -283,6 +283,13 @@ footer .copyright {
   header nav .waNav-mobile-display a {
     font-size: 10px;
   }
+  header nav .waNav-mobile-display a img {
+    height: 16px;
+  }
+  header nav .waNav-mobile-display a .display-none {
+    font-size: 10px;
+    display: inline;
+  }
   header .jumbotron {
     margin-top: 60px;
     height: 200px;
@@ -336,6 +343,13 @@ footer .copyright {
   header nav .waNav-mobile-display a {
     font-size: 10px;
   }
+  header nav .waNav-mobile-display a img {
+    height: 22px;
+  }
+  header nav .waNav-mobile-display a .display-none {
+    display: inline;
+    font-size: 14px;
+  }
   header .jumbotron {
     margin-top: 60px;
     height: 200px;
@@ -380,9 +394,19 @@ footer .copyright {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   header nav .waNav-desktop-display a {
-    font-size: 10px;
+    font-size: 16px;
+  }
+  header nav .waNav-desktop-display a img {
+    height: 22px;
+  }
+  header nav .waNav-desktop-display a .display-none {
+    display: inline;
+    font-size: 14px;
   }
   header nav .waNav-mobile-display {
     display: none;
