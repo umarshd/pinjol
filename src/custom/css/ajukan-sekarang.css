@@ -224,6 +224,7 @@ footer .copyright {
   }
   header nav .navbar-brand {
     font-size: 20px;
+    margin-right: 8px;
   }
   header nav .waNav-desktop-display {
     display: none;
@@ -236,14 +237,14 @@ footer .copyright {
     margin-right: 20px;
   }
   header nav .waNav-mobile-display a {
-    font-size: 14px;
     padding: 5px 10px;
+    font-size: 14px;
   }
   header nav .waNav-mobile-display a img {
     height: 16px;
   }
   header nav .waNav-mobile-display a .display-none {
-    font-size: 10px;
+    font-size: 12px !important;
     display: inline;
   }
   header .jumbotron {

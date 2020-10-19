@@ -99,6 +99,7 @@ main
 
       p
         color: $color-anchor-hover
+        width: 100%
 
       .paragraph-mitra
         position: absolute
@@ -425,6 +426,7 @@ footer
       .navbar-brand
         // font-size: 25px
         font-size: 20px
+        margin-right: 8px
       .waNav-desktop-display
         display: none
 
@@ -438,7 +440,7 @@ footer
           img
             height: 16px
           .display-none
-            font-size: 10px !important
+            font-size: 12px !important
             display: inline
 
     .jumbotron
@@ -460,17 +462,24 @@ footer
         h3
           margin-top: 70px
 
+        p
+          span
+            display: block
+            margin-bottom: 30px
+
         .paragraph-mitra
+          font-size: 12px
           position: absolute
-          bottom: -80px
+          width: 90%
+          bottom: -70px
           margin-top: 10px
           color: #ffffff
 
           img
             position: absolute
-            bottom: -35px
+            bottom: -25px
             margin-left: 10px
-            height: 50px
+            height: 30px
 
         img
           margin-top: 90px
@@ -487,12 +496,31 @@ footer
         order: 6
       .col-6:nth-child(3)
         order: 3
+        position: relative
+        img
+          position: absolute
+          top: -35px
+          left: 40px
+          height: 96px
       .col-6:nth-child(4)
         order: 2
       .col-6:nth-child(5)
+        position: relative
         order: 5
+        img
+          position: absolute
+          height: 96px
+          left: 50px
+          top: -10px
+
       .col-6:nth-child(6)
+        position: relative
         order: 1
+        img
+          height: 64px
+          position: absolute
+          top: -10px
+          left: 10px
 
     .slider
       .slider-card
@@ -575,7 +603,7 @@ footer
 
     .btn-action
       .btn-custom
-        font-size: 12px !important
+        font-size: 16px !important
 
     .dataPengalaman
       color: #ffffff
@@ -659,7 +687,6 @@ footer
         .profile-testimoni
           img
             height: 64px
-            width: 64px
             margin: 0px auto 10px
 
           .profile-testimoni-name
@@ -813,8 +840,15 @@ footer
       .jumbotron
         height: 700px
 
+        p
+          span
+            display: inline
+
         h3
           margin-top: 100px
+
+        .paragraph-mitra
+          font-size: 16px
 
         img
           margin-top: 100px
@@ -867,6 +901,39 @@ footer
       margin: 20px 0px
       height: 250px
       transition: .5s
+
+    .leasing-partner
+      .col-6:nth-child(1)
+        order: 4
+      .col-6:nth-child(2)
+        order: 6
+      .col-6:nth-child(3)
+        order: 3
+        position: static
+        img
+          position: static
+          top: -35px
+          left: 40px
+          height: 96px
+      .col-6:nth-child(4)
+        order: 2
+      .col-6:nth-child(5)
+        position: static
+        order: 5
+        img
+          position: static
+          height: 96px
+          left: 50px
+          top: -10px
+
+      .col-6:nth-child(6)
+        position: static
+        order: 1
+        img
+          height: 64px
+          position: static
+          top: -10px
+          left: 10px
 
     .card-home
 
