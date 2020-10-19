@@ -191,7 +191,7 @@ footer .copyright {
   }
   header nav .navbar-brand {
     font-size: 20px;
-    margin-right: 8px;
+    margin-right: 3px;
   }
   header nav .waNav-desktop-display {
     display: none;
@@ -201,7 +201,7 @@ footer .copyright {
     display: -ms-flexbox;
     display: flex;
     margin-left: 0px;
-    margin-right: 20px;
+    margin-right: 8px;
   }
   header nav .waNav-mobile-display a {
     padding: 5px 10px;
