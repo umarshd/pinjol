@@ -26,6 +26,61 @@
       href="./src/vendor/slick/slick-theme.css"
     />
 
+    <style>
+      .navbar-toggler {
+        height: 1.8em;
+        width: 1.8em;
+        padding: 0 0.45em 0.15em;
+      }
+
+      .navbar-toggler .line,
+      .navbar-toggler .line::after,
+      .navbar-toggler .line::before {
+        width: 1rem;
+        height: 0.16rem;
+        background-color: black;
+        display: block;
+        position: absolute;
+      }
+
+      .navbar-toggler .line::after {
+        content: "";
+        display: block;
+        top: -0.3em;
+        -webkit-transition: 0.2s ease;
+        transition: 0.2s ease;
+      }
+
+      .navbar-toggler .line::before {
+        content: "";
+        display: block;
+        bottom: -0.3em;
+        -webkit-transition: 0.2s ease;
+        transition: 0.2s ease;
+      }
+
+      .navbar-toggler.open .line {
+        -webkit-transition: 0.2s ease;
+        transition: 0.2s ease;
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+      }
+
+      .navbar-toggler.open .line::after {
+        top: 0;
+        opacity: 0;
+      }
+
+      .navbar-toggler.open .line::before {
+        -webkit-transition: 0.2s ease;
+        transition: 0.2s ease;
+        -webkit-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+        bottom: 0;
+      }
+      /*# sourceMappingURL=test.css.map */
+    </style>
+
     <title>Halogadai</title>
   </head>
   <body>
@@ -48,7 +103,9 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <div class="burger">
+              <div class="line"></div>
+            </div>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="ml-auto mr-auto navbar-nav">
@@ -943,6 +1000,14 @@
           }
         };
       }
+    </script>
+    <script>
+      $(document).ready(function () {
+        var btnNav = $(".navbar-toggler");
+        $(btnNav).click(function () {
+          $(btnNav).toggleClass("open");
+        });
+      });
     </script>
   </body>
 </html>
